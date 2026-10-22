@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Fridge to Wok</title>
+<meta name="description" content="210 recipes, mostly Taiwanese and Chinese. Pick what's in your fridge and see what you can cook, in English or 繁體中文.">
+<meta name="theme-color" content="#2D6B5A">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%23B8322A'/><text x='32' y='45' font-size='38' text-anchor='middle' fill='white' font-family='serif'>灶</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@700;900&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Fridge to Wok"><span class="seal">灶</span><span><b id="brandName">Fridge to Wok</b><small id="tagline">Cook from what you have</small></span></a>
+    <label class="search"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="q" type="search" autocomplete="off"></label>
+    <div class="topbtns">
+      <button class="lang" id="langBtn" type="button"></button>
+      <button class="pill" id="openFav" type="button">♥ <span id="savedLbl">Saved</span> <span class="count" id="favCount">0</span></button>
+      <button class="pill" id="openShop" type="button">🛒 <span id="shopLbl">Shopping</span> <span class="count" id="shopCount">0</span></button>
+      <div class="skins" role="group" aria-label="Theme" id="skins"></div>
+    </div>
+  </div>
+</header>
+
+<section class="hero" id="top">
+  <canvas id="heroCanvas" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <div>
+      <span class="scene" id="sceneName"></span>
+      <h1><span id="h1a"></span><br><em id="h1b"></em></h1>
+      <p id="lede"></p>
+      <div class="glass">
+        <div class="stats">
+          <div class="stat"><b class="num" id="sTotal">0</b><span id="lblRecipes"></span></div>
+          <div class="stat"><b class="num" id="sEast">0</b><span id="lblAsian"></span></div>
+          <div class="stat"><b class="num" id="sNow">0</b><span id="lblNow"></span></div>
+        </div>
+        <div class="cta">
+          <button class="btn primary" id="openFridge" type="button"></button>
+          <button class="btn soft" id="surprise" type="button"></button>
+        </div>
+      </div>
+    </div>
+    <figure class="hero-photo" style="margin:0"><img id="heroImg" alt="" referrerpolicy="no-referrer"><figcaption class="hero-cap" id="heroCap"></figcaption></figure>
+  </div>
+</section>
+
+<div class="wrap main">
+  <aside class="rail" id="rail" aria-label="Filters"></aside>
+  <main>
+    <section class="fridge" aria-labelledby="fridgeLbl">
+      <div class="fridge-head">
+        <h3><span id="fridgeLbl"></span> <span class="tag num" id="haveN"></span></h3>
+        <div class="actions">
+          <div class="seg" id="matchSeg" role="group"></div>
+          <button class="btn soft" id="editFridge" type="button"></button>
+        </div>
+      </div>
+      <div class="have" id="haveList"></div>
+    </section>
+    <div class="toolbar">
+      <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">
+        <span class="result num" id="resultN"></span>
+        <button class="pill filters-btn" id="toggleFilters" type="button"></button>
+      </div>
+      <label style="display:flex;gap:8px;align-items:center;font-size:13px;font-weight:600"><span id="sortLbl"></span>
+        <select id="sort"></select></label>
+    </div>
+    <div class="grid" id="grid"></div>
+  </main>
+</div>
+<footer class="site-foot"><div class="wrap"><span id="credits"></span><span>© James Ting · Fridge to Wok</span></div></footer>
+<div id="layer"></div>
+
+<script>const RAW=[],ZRAW=[];function R(){RAW.push([...arguments])}function Z(){ZRAW.push([...arguments])}</script>
+<script src="data/d1_taiwanese.js"></script>
+<script src="data/d2_chinese.js"></script>
+<script src="data/d3_asian.js"></script>
+<script src="data/d4_western.js"></script>
+<script src="data/z1_taiwanese.js"></script>
+<script src="data/z2_chinese.js"></script>
+<script src="data/z3_asian.js"></script>
+<script src="data/z4_western.js"></script>
+<script src="data/i18n.js"></script>
+<script src="data/photos.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
