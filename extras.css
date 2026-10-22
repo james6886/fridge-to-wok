@@ -1,0 +1,144 @@
+/* ===== Taiwanese / Asian decorations, almanac, weather, picks ===== */
+:root{--lantern:#D7261E;--lantern-2:#F2C14E;--petal:#F4A7B9;--paper:#FFF8EC;--paper-ink:#3B2418}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--paper:#2A221B;--paper-ink:#F6E7D3}}
+:root[data-theme="dark"]{--paper:#2A221B;--paper-ink:#F6E7D3}
+
+/* auspicious clouds (祥雲) drifting behind everything */
+body::after{content:"";position:fixed;inset:-20%;z-index:-1;pointer-events:none;opacity:.07;
+ background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='140' viewBox='0 0 220 140'%3E%3Cg fill='none' stroke='%23B9852A' stroke-width='3' stroke-linecap='round'%3E%3Cpath d='M20 90c0-14 12-24 26-20 4-14 22-20 34-10 10-10 30-6 32 10 14-2 24 10 18 22H24'/%3E%3Cpath d='M58 82c-6-8 4-16 10-10M96 78c4-8 14-6 14 2'/%3E%3Cpath d='M130 40c0-10 9-17 19-14 3-10 16-14 24-7 7-7 21-4 23 7 10-1 17 7 13 16H133'/%3E%3C/g%3E%3C/svg%3E");
+ background-size:320px 200px;animation:clouds 120s linear infinite}
+@keyframes clouds{to{transform:translate(320px,0)}}
+body{position:relative;z-index:0}
+
+/* fret band 回紋 */
+.fret{height:14px;background:var(--accent);opacity:.85;
+ -webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='14' viewBox='0 0 28 14'%3E%3Cpath d='M0 13h4V1h12v8H8V5h4' fill='none' stroke='black' stroke-width='2'/%3E%3Cpath d='M14 13h14' stroke='black' stroke-width='2'/%3E%3C/svg%3E") repeat-x 0 0/28px 14px;
+ mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='14' viewBox='0 0 28 14'%3E%3Cpath d='M0 13h4V1h12v8H8V5h4' fill='none' stroke='black' stroke-width='2'/%3E%3Cpath d='M14 13h14' stroke='black' stroke-width='2'/%3E%3C/svg%3E") repeat-x 0 0/28px 14px;
+ animation:fret 30s linear infinite}
+@keyframes fret{to{-webkit-mask-position:280px 0;mask-position:280px 0}}
+
+/* hanging lanterns */
+.hero{overflow:hidden}
+.lanterns{position:absolute;inset:0 0 auto 0;height:0;z-index:1;pointer-events:none}
+.lantern{position:absolute;top:0;transform-origin:50% 0;animation:drop .9s cubic-bezier(.3,1.4,.5,1) var(--d) both,swing 4.5s ease-in-out calc(var(--d) + .9s) infinite}
+.lantern.l0{left:4%}.lantern.l1{left:22%;--s:.8}.lantern.l2{left:47%;--s:.7}.lantern.l3{right:28%;--s:.85}.lantern.l4{right:3%}
+.lantern .cord{display:block;width:2px;height:calc(28px + var(--s,1)*20px);margin:0 auto;background:var(--lantern-2)}
+.lantern .body{display:grid;place-items:center;width:calc(var(--s,1)*54px);height:calc(var(--s,1)*44px);border-radius:46%/52%;margin:0 auto;
+ background:radial-gradient(ellipse at 50% 40%,#FF6A4B,var(--lantern) 60%,#8E1410);box-shadow:0 0 24px rgb(255 90 60 / .55),inset 0 -6px 0 rgb(0 0 0 / .15);position:relative}
+.lantern .body::before,.lantern .body::after{content:"";position:absolute;left:22%;right:22%;height:5px;background:var(--lantern-2);border-radius:2px}
+.lantern .body::before{top:-3px}.lantern .body::after{bottom:-3px}
+.lantern b{font:900 calc(var(--s,1)*20px)/1 var(--f-zh);color:var(--lantern-2);text-shadow:0 0 6px rgb(255 200 80 / .6)}
+.lantern .tassel{display:block;width:6px;height:calc(var(--s,1)*22px);margin:2px auto 0;background:repeating-linear-gradient(90deg,var(--lantern) 0 1px,#B21E18 1px 2px);border-radius:0 0 3px 3px}
+@keyframes swing{0%,100%{transform:rotate(-5deg)}50%{transform:rotate(5deg)}}
+@keyframes drop{from{transform:translateY(-120px)}}
+.hero .wrap{padding-top:96px}
+@media (max-width:700px){.lantern.l1,.lantern.l3{display:none}.hero .wrap{padding-top:118px}}
+
+/* hero right side: almanac (撕日曆) over the photo */
+.hero-right{position:relative;min-width:0;display:grid}
+.almanac{position:absolute;z-index:3;left:-34px;top:-30px;width:210px;background:var(--paper);color:var(--paper-ink);border-radius:10px;box-shadow:0 14px 30px rgb(0 0 0 / .25);transform:rotate(-4deg);overflow:hidden;animation:almIn .8s cubic-bezier(.2,1.3,.4,1) .3s both}
+@keyframes almIn{from{transform:rotate(-14deg) translateY(-30px);opacity:0}}
+.alm-top{background:var(--lantern);color:#FFE9B0;font:700 13px/1 var(--f-body);letter-spacing:.06em;padding:9px 12px 8px;display:flex;justify-content:space-between;align-items:center}
+.alm-rings{display:flex;gap:28px}.alm-rings i{width:8px;height:8px;border-radius:50%;background:var(--paper);box-shadow:inset 0 1px 2px rgb(0 0 0 / .4)}
+.alm-body{text-align:center;padding:8px 12px 6px;border-bottom:1px dashed color-mix(in srgb,var(--paper-ink) 30%,transparent)}
+.alm-day{font:800 62px/1 var(--f-display);color:var(--lantern)}
+.alm-wd{font-weight:700;font-size:14px}
+.alm-lunar{font:700 13px/1.4 var(--f-zh);color:color-mix(in srgb,var(--paper-ink) 75%,transparent);margin-top:2px}
+.alm-clock{font:800 22px/1.2 var(--f-display);margin-top:6px;letter-spacing:.02em}
+.clock-mini{font-weight:800;color:var(--accent)}
+.alm-wx{padding:10px 12px;display:grid;grid-template-columns:auto 1fr;gap:4px 10px;align-items:center;font-size:12.5px}
+.wx-main{min-width:0}
+.wx-temp{font:800 24px/1 var(--f-display);background:none;border:0;padding:0;color:inherit}
+.wx-desc,.wx-hl{font-size:12px;opacity:.8}
+.wx-city{grid-column:1/-1;font-weight:600;display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.wx-msg{grid-column:1/-1;font-size:12.5px}
+.wx-change{background:none;border:1px solid color-mix(in srgb,var(--paper-ink) 30%,transparent);border-radius:999px;padding:1px 8px;font-size:11.5px;color:inherit}
+.wx-form{grid-column:1/-1;display:grid;gap:6px}
+.wx-form input{width:100%;padding:6px 8px;border-radius:8px;border:1px solid color-mix(in srgb,var(--paper-ink) 30%,transparent);background:transparent}
+.wx-res{display:grid;gap:3px}.wx-res button{text-align:left;background:color-mix(in srgb,var(--paper-ink) 7%,transparent);border:0;border-radius:6px;padding:5px 7px;font-size:12px;color:inherit}
+.alm-next{background:color-mix(in srgb,var(--lantern) 10%,transparent);padding:8px 12px;font-size:12px;display:grid}
+.alm-next span{opacity:.7}.alm-next b{font-family:var(--f-zh);font-size:14px;color:var(--lantern)}.alm-next em{font-style:normal;font-weight:700}
+@media (max-width:900px){.hero-right{gap:14px}.almanac{position:relative;left:auto;top:auto;width:auto;transform:none;display:grid;grid-template-columns:1fr 1fr}.alm-top{grid-column:1/-1}.alm-body{border-bottom:0;border-right:1px dashed color-mix(in srgb,var(--paper-ink) 30%,transparent)}.alm-next{grid-column:1/-1}}
+@media (max-width:420px){.almanac{grid-template-columns:1fr}.alm-body{border-right:0}}
+
+/* animated weather icons */
+.wi{position:relative;width:46px;height:40px;display:block}
+.wi-sun{position:absolute;left:4px;top:2px;width:24px;height:24px;border-radius:50%;background:#F5B400;box-shadow:0 0 0 4px rgb(245 180 0 / .25),0 0 14px #F5B400;animation:spin 14s linear infinite}
+.wi-sun.moon{background:#E9E3C9;box-shadow:inset -7px -3px 0 #B8B08F,0 0 10px rgb(233 227 201 / .6)}
+.wi-cloud{position:absolute;right:0;bottom:6px;width:34px;height:15px;border-radius:12px;background:#C9D2DA;animation:drift 5s ease-in-out infinite}
+.wi-cloud::before{content:"";position:absolute;left:7px;top:-9px;width:17px;height:17px;border-radius:50%;background:#C9D2DA}
+.wi-drops i{position:absolute;bottom:-4px;width:2px;height:7px;border-radius:2px;background:#4A90D9;animation:rain 1s linear infinite}
+.wi-drops i:nth-child(1){left:18px}.wi-drops i:nth-child(2){left:26px;animation-delay:.3s}.wi-drops i:nth-child(3){left:34px;animation-delay:.6s}
+.wi-flakes i{position:absolute;bottom:-6px;font-size:9px;color:#8DB7E8;font-style:normal;animation:rain 2s linear infinite}
+.wi-flakes i:nth-child(1){left:16px}.wi-flakes i:nth-child(2){left:26px;animation-delay:.7s}.wi-flakes i:nth-child(3){left:36px;animation-delay:1.3s}
+.wi-bolt{position:absolute;left:20px;bottom:-6px;font-size:13px;animation:flash 2.4s infinite}
+.wi-fog{position:absolute;left:6px;right:2px;bottom:2px;height:3px;background:#C9D2DA;border-radius:3px;box-shadow:0 -6px 0 #C9D2DA}
+@keyframes spin{to{transform:rotate(360deg)}}@keyframes drift{50%{transform:translateX(-4px)}}
+@keyframes rain{from{transform:translateY(-4px);opacity:0}30%{opacity:1}to{transform:translateY(8px);opacity:0}}
+@keyframes flash{0%,90%,100%{opacity:.2}92%,96%{opacity:1}}
+
+/* neon night market sign */
+.neon{font:700 15px/1 var(--f-zh);color:#FF4FA3;padding:5px 10px;border:2px solid #FF4FA3;border-radius:8px;text-shadow:0 0 6px #FF4FA3,0 0 14px #FF4FA3;box-shadow:0 0 10px rgb(255 79 163 / .45),inset 0 0 8px rgb(255 79 163 / .35);animation:neon 5s infinite;white-space:nowrap}
+@keyframes neon{0%,18%,22%,62%,64%,100%{opacity:1}20%,63%{opacity:.35}}
+
+/* card details: seal stamps in, steam rises */
+.card .stamp{animation:stampIn .5s cubic-bezier(.2,1.6,.4,1) both;animation-delay:inherit}
+@keyframes stampIn{from{transform:rotate(-30deg) scale(2.2);opacity:0}}
+.steam{position:absolute;left:50%;top:30%;z-index:2;pointer-events:none;display:flex;gap:10px;translate:-50% 0}
+.steam i{width:8px;height:38px;border-radius:50%;background:linear-gradient(transparent,rgb(255 255 255 / .85),transparent);filter:blur(3px);opacity:0}
+.card:hover .steam i,.steam.big i{animation:steam 2.2s ease-out infinite}
+.steam i:nth-child(2){animation-delay:.5s!important}.steam i:nth-child(3){animation-delay:1s!important}
+@keyframes steam{0%{opacity:0;transform:translateY(16px) scaleY(.6)}40%{opacity:.9}100%{opacity:0;transform:translateY(-28px) scaleY(1.2) skewX(12deg)}}
+.card{border-color:color-mix(in srgb,var(--gold) 25%,var(--line))}
+.card:hover{box-shadow:0 0 0 2px color-mix(in srgb,var(--accent) 45%,transparent),var(--shadow)}
+
+/* modal opens like a hanging scroll; title gets a brush stroke */
+.modal{animation:unroll .45s cubic-bezier(.2,.9,.3,1) both;transform-origin:50% 0;border-top:6px solid var(--accent)}
+@keyframes unroll{from{clip-path:inset(0 0 100% 0);transform:translateY(-10px)}to{clip-path:inset(0 0 0 0)}}
+.detail h2{position:relative;display:inline-block;padding-bottom:6px}
+.detail h2::after{content:"";position:absolute;left:0;right:0;bottom:0;height:8px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 10' preserveAspectRatio='none'%3E%3Cpath d='M2 7C40 2 90 3 130 5s50 2 66-2' fill='none' stroke='%23C9302C' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E") no-repeat 0 0/100% 100%;animation:brush .8s ease-out .25s both}
+@keyframes brush{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}}
+.steps li::before{font-family:var(--f-zh)!important}
+
+/* cook mode bowl */
+.bowl{position:relative;width:120px;height:90px;margin:0 auto 6px}
+.bowl .steam{top:-6px}
+.bowl-body{position:absolute;left:0;right:0;bottom:0;height:52px;border-radius:0 0 60px 60px;background:linear-gradient(var(--accent),color-mix(in srgb,var(--accent) 60%,#000));box-shadow:inset 0 6px 0 rgb(255 255 255 / .25)}
+.bowl-body::before{content:"";position:absolute;left:8%;right:8%;top:8px;height:3px;background:repeating-linear-gradient(90deg,var(--lantern-2) 0 8px,transparent 8px 12px)}
+.chop{position:absolute;right:-6px;top:12px;width:80px;height:5px;border-radius:3px;background:#6B4F37;transform:rotate(-22deg);box-shadow:0 8px 0 #8B6A4A}
+.steam.big i{background:linear-gradient(transparent,color-mix(in srgb,var(--muted) 60%,transparent),transparent)}
+
+/* picks pop-up + lantern button */
+.recpop{position:fixed;z-index:70;right:max(16px,env(safe-area-inset-right,0px));bottom:calc(84px + env(safe-area-inset-bottom,0px));width:min(420px,calc(100vw - 32px));max-height:min(70vh,640px);overflow:auto;background:var(--surface);border:1px solid var(--line);border-top:6px solid var(--lantern);border-radius:18px;box-shadow:0 24px 60px rgb(0 0 0 / .3)}
+.recpop.open{animation:popIn .45s cubic-bezier(.2,1.3,.4,1) both}.recpop.closing{animation:popOut .25s ease-in both}
+@keyframes popIn{from{transform:translateY(30px) scale(.9);opacity:0}}@keyframes popOut{to{transform:translateY(20px) scale(.95);opacity:0}}
+.rec-head{display:flex;justify-content:space-between;gap:10px;padding:14px 16px 6px;align-items:flex-start;position:sticky;top:0;background:var(--surface)}
+.rec-head h3{font-size:19px;display:flex;gap:8px;align-items:center}.rec-head p{margin:2px 0 0;color:var(--muted);font-size:12.5px}
+.rec-seal{background:var(--lantern);color:#FFE9B0;font:900 15px/1 var(--f-zh);padding:5px;border-radius:6px;transform:rotate(-6deg)}
+.rec-body{padding:4px 16px 16px;display:grid;gap:14px}
+.rec-title{font-weight:700;font-size:13.5px;display:flex;gap:6px;margin-bottom:7px}
+.rec-row{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+.rec-dish{border:0;background:none;padding:0;text-align:left;font-size:11.5px;font-weight:600;color:var(--ink);display:grid;gap:4px;min-width:0}
+.rec-dish img,.rec-ph{width:100%;aspect-ratio:1;object-fit:cover;border-radius:12px;background:var(--sunk);display:grid;place-items:center;transition:transform .2s}
+.rec-dish:hover img{transform:scale(1.06) rotate(-2deg)}
+.rec-dish span{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.rec-fab{position:fixed;z-index:69;right:max(16px,env(safe-area-inset-right,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px));display:flex;align-items:center;gap:8px;border:0;border-radius:999px;padding:8px 16px 8px 10px;background:var(--lantern);color:#FFE9B0;font-weight:800;box-shadow:0 10px 24px rgb(215 38 30 / .4)}
+.fab-lantern{width:26px;height:22px;border-radius:46%/52%;background:radial-gradient(ellipse at 50% 40%,#FFD27A,#F2A500 70%);box-shadow:0 0 12px #FFD27A;animation:swing 3s ease-in-out infinite;transform-origin:50% -6px}
+.rec-fab:hover{filter:brightness(1.08);transform:translateY(-2px)}
+
+/* footer waves 青海波 */
+.site-foot{position:relative;padding-top:0}
+.waves{height:46px;margin-bottom:14px;opacity:.35;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='30' viewBox='0 0 60 30'%3E%3Cg fill='none' stroke='%232D6B5A' stroke-width='1.6'%3E%3Ccircle cx='30' cy='30' r='28'/%3E%3Ccircle cx='30' cy='30' r='20'/%3E%3Ccircle cx='30' cy='30' r='12'/%3E%3Ccircle cx='0' cy='30' r='28'/%3E%3Ccircle cx='60' cy='30' r='28'/%3E%3C/g%3E%3C/svg%3E") repeat-x 0 100%/60px 30px;animation:waves 18s linear infinite}
+@keyframes waves{to{background-position:600px 100%}}
+.site-foot .wrap::before{content:attr(data-foot);font:700 15px var(--f-zh);color:var(--accent);flex-basis:100%}
+
+/* petals, confetti, toggle */
+.petals,.burst{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:45}
+.burst{z-index:95}
+.fx-toggle{width:34px;height:34px;border-radius:50%;border:1px solid var(--line);background:var(--surface);color:var(--petal);font-size:17px}
+.fx-toggle[aria-pressed="false"]{color:var(--muted);opacity:.6}
+.fx-off .lantern,.fx-off .fab-lantern,.fx-off body::after,.fx-off .fret,.fx-off .waves,.fx-off .neon{animation:none!important}
+.fx-off body::after{animation:none}
+@media (prefers-reduced-motion:reduce){.lantern,.almanac,.recpop,.modal,.detail h2::after,.card .stamp{animation:none!important}}
+@media (max-width:900px){.hero .wrap{grid-template-columns:1fr}.hero-photo{max-width:none}}
+@media (max-width:520px){.hero .scene{font-size:11px;letter-spacing:.06em}.recpop{bottom:calc(76px + env(safe-area-inset-bottom,0px))}.rec-row{grid-template-columns:repeat(3,minmax(0,1fr))}.rec-row .rec-dish:nth-child(4){display:none}}

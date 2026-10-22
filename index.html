@@ -11,6 +11,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@700;900&display=swap">
 <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="extras.css">
 </head>
 <body>
 <header class="top">
@@ -77,7 +78,9 @@
 <footer class="site-foot"><div class="wrap"><span id="credits"></span><span>© James Ting · Fridge to Wok</span></div></footer>
 <div id="layer"></div>
 
-<script>const RAW=[],ZRAW=[];function R(){RAW.push([...arguments])}function Z(){ZRAW.push([...arguments])}</script>
+<script>const RAW=[],ZRAW=[],PQ={};function R(){RAW.push([...arguments])}function Z(){ZRAW.push([...arguments])}
+function W(en,zh,cuisine,tags,diff,serv,kcal,ings,steps,zhSteps,photoQuery){RAW.push([en,zh,cuisine,tags,diff,serv,kcal,ings,steps]);ZRAW.push(["",zhSteps]);if(photoQuery)PQ[RAW.length-1]=photoQuery}
+function ZING(map){Object.assign(ING_ZH,map)}</script>
 <script src="data/d1_taiwanese.js"></script>
 <script src="data/d2_chinese.js"></script>
 <script src="data/d3_asian.js"></script>
@@ -87,7 +90,9 @@
 <script src="data/z3_asian.js"></script>
 <script src="data/z4_western.js"></script>
 <script src="data/i18n.js"></script>
+<script src="data/weekly.js"></script>
 <script src="data/photos.js"></script>
 <script src="app.js"></script>
+<script src="extras.js"></script>
 </body>
 </html>

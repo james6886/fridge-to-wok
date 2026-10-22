@@ -5,10 +5,10 @@ const store={get(k,d){try{const v=localStorage.getItem("f2w:"+k);return v?JSON.p
 
 /* ---------- data model ---------- */
 const TYPE_FIX={"sweet potato starch":"o","flour":"o","fish cake":"p"};
-const CHINESE=["Sichuan","Cantonese","Shanghainese","Northern Chinese","Hunan","Yunnan"];
+const CHINESE=["Sichuan","Cantonese","Shanghainese","Northern Chinese","Hunan","Yunnan","Hakka","Fujian","Hong Kong"];
 const EAST=["Taiwanese",...CHINESE,"Japanese","Korean","Thai","Vietnamese","Singaporean","Malaysian","Indian"];
-const STAMP={Taiwanese:"台",Sichuan:"川",Cantonese:"粵",Shanghainese:"滬","Northern Chinese":"京",Hunan:"湘",Yunnan:"滇",Japanese:"和",Korean:"韓",Thai:"泰",Vietnamese:"越",Singaporean:"星",Malaysian:"馬",Indian:"印",Italian:"意",American:"美",French:"法",Mexican:"墨",British:"英",Mediterranean:"希",European:"歐"};
-const PALETTE={Taiwanese:["#F4C9A8","#E9895F"],Sichuan:["#F3B0A0","#C8402E"],Cantonese:["#F6E2B3","#D9A441"],Shanghainese:["#E8C2B5","#9C4A3A"],"Northern Chinese":["#EED9B8","#B07B3D"],Hunan:["#F5B7A6","#D2503B"],Yunnan:["#D7E8C4","#7BA05B"],Japanese:["#E6E0F0","#8E7BB8"],Korean:["#F3C4C4","#C9504F"],Thai:["#CDEBD5","#4E9F6A"],Vietnamese:["#D3EBE4","#4A9A86"],Singaporean:["#F2E3C6","#C99A4B"],Malaysian:["#F5D3B3","#D27D3A"],Indian:["#F6D59B","#D98C1F"],Italian:["#D8ECD5","#C14B3A"],American:["#D6E3F2","#3E6FB0"],French:["#E0E4F2","#4D5D9E"],Mexican:["#F4E3A1","#D8582C"],British:["#DCE1E6","#4F6170"],Mediterranean:["#D2E8EE","#2F8AA6"],European:["#E7E3D6","#8A7A52"]};
+const STAMP={Taiwanese:"台",Sichuan:"川",Cantonese:"粵",Shanghainese:"滬","Northern Chinese":"京",Hunan:"湘",Yunnan:"滇",Hakka:"客",Fujian:"閩","Hong Kong":"港",Japanese:"和",Korean:"韓",Thai:"泰",Vietnamese:"越",Singaporean:"星",Malaysian:"馬",Indian:"印",Italian:"意",American:"美",French:"法",Mexican:"墨",British:"英",Mediterranean:"希",European:"歐"};
+const PALETTE={Taiwanese:["#F4C9A8","#E9895F"],Sichuan:["#F3B0A0","#C8402E"],Cantonese:["#F6E2B3","#D9A441"],Shanghainese:["#E8C2B5","#9C4A3A"],"Northern Chinese":["#EED9B8","#B07B3D"],Hunan:["#F5B7A6","#D2503B"],Yunnan:["#D7E8C4","#7BA05B"],Hakka:["#E9D9C0","#8C6A3C"],Fujian:["#D9E6DE","#4B7F66"],"Hong Kong":["#F4D6D6","#B8464B"],Japanese:["#E6E0F0","#8E7BB8"],Korean:["#F3C4C4","#C9504F"],Thai:["#CDEBD5","#4E9F6A"],Vietnamese:["#D3EBE4","#4A9A86"],Singaporean:["#F2E3C6","#C99A4B"],Malaysian:["#F5D3B3","#D27D3A"],Indian:["#F6D59B","#D98C1F"],Italian:["#D8ECD5","#C14B3A"],American:["#D6E3F2","#3E6FB0"],French:["#E0E4F2","#4D5D9E"],Mexican:["#F4E3A1","#D8582C"],British:["#DCE1E6","#4F6170"],Mediterranean:["#D2E8EE","#2F8AA6"],European:["#E7E3D6","#8A7A52"]};
 const MEATY=/dried shrimp|fish sauce|oyster sauce|shacha|pork floss|fish cake|gelatin|pork skin|dried scallop|worcestershire|laksa paste|curry roux|bonito/;
 const ANIMAL=/^(eggs|milk|butter|cream|yogurt|honey|mayonnaise|egg noodles|ladyfingers|condensed milk|milk powder|buttermilk|sour cream|pie crust|ghee)$|cheese|mozzarella|parmesan|ricotta|mascarpone|cheddar|feta|gruyere|ice cream/;
 const VEGP=/^(eggs|tofu|silken tofu|dried tofu|tofu puffs)$/;
@@ -18,7 +18,8 @@ const isPassive=(text,min)=>PASSIVE.test(text.split(/[,.]/)[0])||min>=60||(min>=
 const FAMILY=[[/^chicken|whole chicken/,"chicken"],[/^beef|^ground beef/,"beef"],[/^pork(?! skin)|^ground pork/,"pork"],[/tofu(?! skin)/,"tofu"],[/^(wheat noodles|egg noodles|ramen noodles|shanghai noodles|yi mein noodles)$/,"wheat noodle"],[/^(rice noodles|rice vermicelli|fresh rice noodles)$/,"rice noodle"],[/^(cabbage|napa cabbage)$/,"cabbage"],[/^(mushrooms|shiitake|king oyster mushroom|enoki)$/,"mushroom"],[/^(pasta|macaroni)$/,"pasta"],[/^(onion|shallot)$/,"onion"],[/^(lemon|lime)$/,"citrus"],[/^(cheddar|mozzarella|gruyere)$/,"melting cheese"],[/^(fish fillet|whole fish|salmon)$/,"fish"]];
 const famOf=n=>{for(const[re,f]of FAMILY)if(re.test(n))return f;return null};
 
-const RECIPES=RAW.map((a,i)=>{
+const HIDE=/^(Bubble Milk Tea|Homemade Soy Milk|Strawberry Banana Smoothie|Lemonade)$/;
+const ALLR=RAW.map((a,i)=>{
   const [en,zh,cuisine,tagstr,diff,serv,kcal,ingstr,stepstr]=a;
   const z=ZRAW[i]||["",""];
   const ings=ingstr.split(";").map(x=>{const m=x.match(/^([pvos]):([^=]+)=(.+)$/);const name=m[2].trim();return{t:TYPE_FIX[name]||m[1],name,qty:m[3].trim()}});
@@ -35,8 +36,9 @@ const RECIPES=RAW.map((a,i)=>{
   if(kcal<=400&&!tags.has("dessert")&&!tags.has("drink"))tags.add("lowcal");
   if(diff===1&&ings.filter(g=>g.t!=="s").length<=5)tags.add("fewing");
   const ph=PHOTOS[i];
-  return{id:i,en,zh:z[0]||zh,cuisine,tags,diff,serv,kcal,ings,steps,total,active,east:EAST.includes(cuisine),chinese:CHINESE.includes(cuisine),need:ings.filter(g=>g.t!=="s"),photo:ph?{src:ph[0],by:ph[1],lic:ph[2],page:ph[3]}:null};
+  return{hidden:HIDE.test(en)||(tags.has("drink")&&!tags.has("dessert")),pq:(typeof PQ!=="undefined"&&PQ[i])||"",id:i,en,zh:z[0]||zh,cuisine,tags,diff,serv,kcal,ings,steps,total,active,east:EAST.includes(cuisine),chinese:CHINESE.includes(cuisine),need:ings.filter(g=>g.t!=="s"),photo:ph?{src:ph[0],by:ph[1],lic:ph[2],page:ph[3]}:null};
 });
+const RECIPES=ALLR.filter(r=>!r.hidden);
 
 /* ---------- language ---------- */
 const S={lang:store.get("lang",/^zh/i.test(navigator.language||"")?"zh":"en")};
@@ -68,7 +70,7 @@ function artHTML(r,big){
 Object.assign(S,{q:"",cats:new Set(),cuisines:new Set(),region:"all",maxTime:600,maxKcal:900,diff:0,mode:"any",sort:"match",staples:true,smart:true,
   have:new Set(store.get("have",["eggs","garlic","scallion","ginger","rice","tomato","chicken thigh","bok choy","onion","tofu"])),
   fav:new Set(store.get("fav",[])),shop:store.get("shop",[]),skin:store.get("skin","celadon")});
-const CATS=[["healthy","🥗 Healthy"],["lowcal","🔥 Low calorie"],["dessert","🍮 Dessert"],["kids","🧸 Kids meal"],["quick","⏱ 30 min or less"],["veg","🌱 Vegetarian"],["vegan","🌿 Vegan"],["protein","💪 High protein"],["breakfast","🌅 Breakfast"],["soup","🍲 Soup"],["noodle","🍜 Noodles & pasta"],["rice","🍚 Rice"],["dumpling","🥟 Dumplings & buns"],["street","🏮 Night market / street"],["seafood","🦐 Seafood"],["spicy","🌶 Spicy"],["comfort","🛋 Comfort food"],["onepot","🫕 One pot"],["mealprep","📦 Meal prep"],["festive","🧧 Festive"],["snack","🥨 Snacks"],["drink","🧋 Drinks"],["fewing","🧺 5 ingredients or fewer"]];
+const CATS=[["healthy","🥗 Healthy"],["lowcal","🔥 Low calorie"],["dessert","🍮 Dessert"],["kids","🧸 Kids meal"],["quick","⏱ 30 min or less"],["veg","🌱 Vegetarian"],["vegan","🌿 Vegan"],["protein","💪 High protein"],["breakfast","🌅 Breakfast"],["soup","🍲 Soup"],["noodle","🍜 Noodles & pasta"],["rice","🍚 Rice"],["dumpling","🥟 Dumplings & buns"],["street","🏮 Night market / street"],["seafood","🦐 Seafood"],["spicy","🌶 Spicy"],["comfort","🛋 Comfort food"],["onepot","🫕 One pot"],["mealprep","📦 Meal prep"],["festive","🧧 Festive"],["snack","🥨 Snacks"],["fewing","🧺 5 ingredients or fewer"]];
 const CUIS_ORDER=["Taiwanese",...CHINESE,"Japanese","Korean","Thai","Vietnamese","Singaporean","Malaysian","Indian","Italian","American","French","Mexican","Mediterranean","British","European"];
 const ALL_ING=(()=>{const m=new Map();RECIPES.forEach(r=>r.ings.forEach(g=>{if(!m.has(g.name))m.set(g.name,{name:g.name,t:g.t,n:0});m.get(g.name).n++}));return[...m.values()]})();
 
@@ -92,7 +94,7 @@ function renderStatic(){
   $("#langBtn").innerHTML=zhOn()?`<b>中文</b> / EN`:`<b>EN</b> / 中文`;
   $("#langBtn").setAttribute("aria-label",zhOn()?"Switch to English":"切換為繁體中文");
 }
-$("#langBtn").onclick=()=>{S.lang=zhOn()?"en":"zh";store.set("lang",S.lang);renderStatic();applySkin();renderRail();renderAll()};
+$("#langBtn").onclick=()=>{S.lang=zhOn()?"en":"zh";store.set("lang",S.lang);renderStatic();applySkin();renderRail();renderAll();document.dispatchEvent(new Event("f2w:lang"))};
 
 /* ---------- filters rail ---------- */
 function renderRail(){
@@ -204,7 +206,7 @@ function scaleQty(q,f){
 }
 const TCOL=["var(--accent)","var(--jade)","var(--gold)","#8C6FB0","#3E8FB0","#C26A3D","#6A8F3C","#B0466B"];
 function openRecipe(id){
-  const r=RECIPES[id];let f=1;const sep=zhOn()?"、":", ";
+  const r=ALLR[id];let f=1;const sep=zhOn()?"、":", ";
   const draw=()=>{const t=T();const serv=Math.max(1,Math.round(r.serv*f));const m=matchOf(r);const missing=new Set(m.missing.map(g=>g.name));
     let acc=0;const stepsHTML=r.steps.map((s,i)=>{const start=acc;acc+=s.min;return `<li class="${s.passive?"passive":""}"><div><div>${esc(stepText(s))}</div><div class="when num">${s.passive?t.handsOff:""}${t.startsAt(fmt(start))}</div></div><span class="t num" style="border-left:4px solid ${TCOL[i%8]}">${fmt(s.min)}</span></li>`}).join("");
     const groups=[["p",t.tP],["v",t.tV],["o",t.tO],["s",t.tS]];
@@ -261,7 +263,7 @@ function cookMode(r){
 function toggleFav(id){S.fav.has(id)?S.fav.delete(id):S.fav.add(id);store.set("fav",[...S.fav]);$("#favCount").textContent=S.fav.size;renderGrid()}
 function saveShop(){store.set("shop",S.shop);$("#shopCount").textContent=S.shop.filter(x=>!x.done).length}
 const shopQty=x=>typeof x.f==="number"?scaleQty(x.q,x.f):x.q;
-const shopFrom=x=>typeof x.from==="number"&&RECIPES[x.from]?title(RECIPES[x.from]):x.from;
+const shopFrom=x=>typeof x.from==="number"&&ALLR[x.from]?title(ALLR[x.from]):x.from;
 $("#openShop").onclick=()=>{const draw=()=>{const t=T();return `<div class="modal-head"><h2 style="font-size:22px">${t.shopTitle}</h2><button class="x" type="button" data-close aria-label="Close">✕</button></div>
   <div class="list">${S.shop.length?`<ul>${S.shop.map((x,i)=>`<li class="${x.done?"done":""}"><label style="display:flex;gap:10px;align-items:center;flex:1;min-width:0"><input type="checkbox" data-i="${i}" ${x.done?"checked":""}><span class="n">${emoOf(x.n,ING_EMO,"")} <strong>${esc(ingName(x.n))}</strong> <span class="empty-hint">${esc(shopQty(x))} · ${t.forR} ${esc(shopFrom(x))}</span></span></label><button class="x" type="button" data-del="${i}" aria-label="✕">✕</button></li>`).join("")}</ul>
   <div class="actions"><button class="btn soft" type="button" data-bought>${t.moveFridge}</button><button class="btn soft" type="button" data-copy>${t.copy}</button><button class="btn soft" type="button" data-empty>${t.clearList}</button></div>`:`<p class="empty-hint">${t.shopEmpty}</p>`}</div>`};
@@ -325,4 +327,24 @@ function renderAll(){renderFridge();renderGrid()}
 $("#sTotal").textContent=RECIPES.length;$("#sEast").textContent=RECIPES.filter(r=>r.east).length;
 $("#favCount").textContent=S.fav.size;saveShop();
 renderStatic();applySkin();renderRail();renderAll();
+
+/* ---------- photos for newly added recipes (looked up on Wikimedia Commons, cached) ---------- */
+(async()=>{
+  const missing=RECIPES.filter(r=>!r.photo);let changed=false;
+  for(const r of missing){
+    const key="ph:"+r.en;const c=store.get(key,null);
+    if(c){if(c.src)r.photo=c;changed=true;continue}
+    try{
+      const q=(r.pq||r.en+" food")+" filetype:bitmap";
+      const u="https://commons.wikimedia.org/w/api.php?action=query&format=json&origin=*&generator=search&gsrnamespace=6&gsrlimit=1&gsrsearch="+encodeURIComponent(q)+"&prop=imageinfo&iiprop=url|extmetadata&iiextmetadatafilter=Artist|LicenseShortName&iiurlwidth=500";
+      const j=await fetch(u).then(x=>x.json());const pg=Object.values(j.query?.pages||{})[0];const ii=pg?.imageinfo?.[0];
+      const ph=ii?{src:ii.thumburl.split("?")[0],by:(ii.extmetadata?.Artist?.value||"").replace(/<[^>]+>/g,"").trim().slice(0,60),lic:ii.extmetadata?.LicenseShortName?.value||"",page:ii.descriptionurl}:{src:""};
+      store.set(key,ph);if(ph.src){r.photo=ph;changed=true}
+    }catch(e){}
+  }
+  if(changed)renderGrid();
+})();
+
+window.F2W={RECIPES,ALLR,openRecipe,title,subtitle,zhOn,T,fmt,artHTML,esc,store,toast,byName:n=>ALLR.find(r=>r.en===n&&!r.hidden)};
+document.dispatchEvent(new Event("f2w:ready"));
 })();
