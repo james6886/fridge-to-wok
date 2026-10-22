@@ -307,7 +307,7 @@ function drawHero(){
   const parts=Array.from({length:18},()=>({x:rnd(),y:rnd(),s:18+rnd()*22,e:emo[Math.floor(rnd()*emo.length)],sp:.2+rnd()*.5,ph:rnd()*6.28,r:(rnd()-.5)*.6}));
   const reduce=matchMedia("(prefers-reduced-motion: reduce)").matches;cancelAnimationFrame(heroRAF);
   const frame=t=>{const w=c.clientWidth,h=c.clientHeight,dpr=devicePixelRatio||1;if(c.width!==Math.round(w*dpr)){c.width=w*dpr;c.height=h*dpr}ctx.setTransform(dpr,0,0,dpr,0,0);ctx.clearRect(0,0,w,h);
-    ctx.globalAlpha=.5;ctx.textAlign="center";ctx.textBaseline="middle";
+    ctx.globalAlpha=.22;ctx.textAlign="center";ctx.textBaseline="middle";
     for(const p of parts){const y=(p.y*h+(reduce?0:Math.sin(t/1400*p.sp+p.ph)*8));ctx.save();ctx.translate(p.x*w,y);ctx.rotate(p.r+(reduce?0:Math.sin(t/2000+p.ph)*.08));ctx.font=p.s+"px serif";ctx.fillText(p.e,0,0);ctx.restore()}
     ctx.globalAlpha=1;if(!reduce)heroRAF=requestAnimationFrame(frame)};
   heroRAF=requestAnimationFrame(frame);
