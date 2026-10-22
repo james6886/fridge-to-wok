@@ -13,6 +13,8 @@ const MEATY=/dried shrimp|fish sauce|oyster sauce|shacha|pork floss|fish cake|ge
 const ANIMAL=/^(eggs|milk|butter|cream|yogurt|honey|mayonnaise|egg noodles|ladyfingers|condensed milk|milk powder|buttermilk|sour cream|pie crust|ghee)$|cheese|mozzarella|parmesan|ricotta|mascarpone|cheddar|feta|gruyere|ice cream/;
 const VEGP=/^(eggs|tofu|silken tofu|dried tofu|tofu puffs)$/;
 const PASSIVE=/soak|marinat|rest|chill|rise|proof|overnight|steep|refrigerat|freeze|cool|let it|purge|air-dry/i;
+const LONGCOOK=/simmer|braise|bake|roast|steam|slow cook|stew|poach|boil|steep|rest|chill|soak|marinat/i;
+const isPassive=(text,min)=>PASSIVE.test(text.split(/[,.]/)[0])||min>=60||(min>=20&&LONGCOOK.test(text));
 const FAMILY=[[/^chicken|whole chicken/,"chicken"],[/^beef|^ground beef/,"beef"],[/^pork(?! skin)|^ground pork/,"pork"],[/tofu(?! skin)/,"tofu"],[/^(wheat noodles|egg noodles|ramen noodles|shanghai noodles|yi mein noodles)$/,"wheat noodle"],[/^(rice noodles|rice vermicelli|fresh rice noodles)$/,"rice noodle"],[/^(cabbage|napa cabbage)$/,"cabbage"],[/^(mushrooms|shiitake|king oyster mushroom|enoki)$/,"mushroom"],[/^(pasta|macaroni)$/,"pasta"],[/^(onion|shallot)$/,"onion"],[/^(lemon|lime)$/,"citrus"],[/^(cheddar|mozzarella|gruyere)$/,"melting cheese"],[/^(fish fillet|whole fish|salmon)$/,"fish"]];
 const famOf=n=>{for(const[re,f]of FAMILY)if(re.test(n))return f;return null};
 
@@ -21,7 +23,7 @@ const RECIPES=RAW.map((a,i)=>{
   const z=ZRAW[i]||["",""];
   const ings=ingstr.split(";").map(x=>{const m=x.match(/^([pvos]):([^=]+)=(.+)$/);const name=m[2].trim();return{t:TYPE_FIX[name]||m[1],name,qty:m[3].trim()}});
   const zsteps=z[1]?z[1].split("|"):[];
-  const steps=stepstr.split("|").map((s,k)=>{const j=s.indexOf("=");const text=s.slice(j+1).trim();return{min:+s.slice(0,j),text,zh:zsteps[k]||text,passive:PASSIVE.test(text.split(/[,.]/)[0])||+s.slice(0,j)>=180}});
+  const steps=stepstr.split("|").map((s,k)=>{const j=s.indexOf("=");const text=s.slice(j+1).trim();return{min:+s.slice(0,j),text,zh:zsteps[k]||text,passive:isPassive(text,+s.slice(0,j))}});
   const total=steps.reduce((t,s)=>t+s.min,0), active=steps.filter(s=>!s.passive).reduce((t,s)=>t+s.min,0);
   const tags=new Set(tagstr.split(/\s+/));
   ["quickfix","veg","vegan","lowfat"].forEach(t=>tags.delete(t));
