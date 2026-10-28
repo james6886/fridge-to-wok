@@ -89,7 +89,7 @@ function tickClock(){
   const time=now.toLocaleTimeString(loc,{hour:"numeric",minute:"2-digit",second:"2-digit"});
   $("#almClock").textContent=time;
   const base=A.T().scenes[now.getDay()]+" · "+now.toLocaleDateString(loc,{weekday:zh()?"short":undefined,month:"short",day:"numeric"});
-  sceneEl.innerHTML=`${esc(base)} · <span class="num clock-mini">${esc(time)}</span>`;
+  sceneEl.innerHTML=`<span class="scene-day">${esc(base)}</span> <span class="num clock-mini">${esc(time)}</span>`;
 }
 function renderAlmanac(){
   const now=new Date(),loc=zh()?"zh-TW":"en-US",l=lunar(now);
