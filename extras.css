@@ -86,11 +86,12 @@ body{position:relative;z-index:0}
 @keyframes stampIn{from{transform:rotate(-30deg) scale(2.2);opacity:0}}
 .steam{position:absolute;left:50%;top:30%;z-index:2;pointer-events:none;display:flex;gap:10px;translate:-50% 0}
 .steam i{width:8px;height:38px;border-radius:50%;background:linear-gradient(transparent,rgb(255 255 255 / .85),transparent);filter:blur(3px);opacity:0}
-.card:hover .steam i,.steam.big i{animation:steam 2.2s ease-out infinite}
+.steam.big i{animation:steam 2.2s ease-out infinite}
+@media (hover:hover) and (pointer:fine){.card:hover .steam i{animation:steam 2.2s ease-out infinite}}
 .steam i:nth-child(2){animation-delay:.5s!important}.steam i:nth-child(3){animation-delay:1s!important}
 @keyframes steam{0%{opacity:0;transform:translateY(16px) scaleY(.6)}40%{opacity:.9}100%{opacity:0;transform:translateY(-28px) scaleY(1.2) skewX(12deg)}}
 .card{border-color:color-mix(in srgb,var(--gold) 25%,var(--line))}
-.card:hover{box-shadow:0 0 0 2px color-mix(in srgb,var(--accent) 45%,transparent),var(--shadow)}
+@media (hover:hover) and (pointer:fine){.card:hover{box-shadow:0 0 0 2px color-mix(in srgb,var(--accent) 45%,transparent),var(--shadow)}}
 
 /* modal opens like a hanging scroll; title gets a brush stroke */
 .modal{animation:unroll .45s cubic-bezier(.2,.9,.3,1) both;transform-origin:50% 0;border-top:6px solid var(--accent)}
@@ -110,7 +111,7 @@ body{position:relative;z-index:0}
 
 /* picks pop-up + lantern button */
 .recpop{position:fixed;z-index:70;right:max(16px,env(safe-area-inset-right,0px));bottom:calc(84px + env(safe-area-inset-bottom,0px));width:min(420px,calc(100vw - 32px));max-height:min(70vh,640px);overflow:auto;background:var(--surface);border:1px solid var(--line);border-top:6px solid var(--lantern);border-radius:18px;box-shadow:0 24px 60px rgb(0 0 0 / .3)}
-.recpop.open{animation:popIn .45s cubic-bezier(.2,1.3,.4,1) both}.recpop.closing{animation:popOut .25s ease-in both}
+.recpop.open{animation:popIn .45s cubic-bezier(.2,1.3,.4,1) both}.recpop.closing{animation:popOut .2s cubic-bezier(.23,1,.32,1) both}
 @keyframes popIn{from{transform:translateY(30px) scale(.9);opacity:0}}@keyframes popOut{to{transform:translateY(20px) scale(.95);opacity:0}}
 .rec-head{display:flex;justify-content:space-between;gap:10px;padding:14px 16px 6px;align-items:flex-start;position:sticky;top:0;background:var(--surface)}
 .rec-head h3{font-size:19px;display:flex;gap:8px;align-items:center}.rec-head p{margin:2px 0 0;color:var(--muted);font-size:12.5px}
@@ -120,11 +121,11 @@ body{position:relative;z-index:0}
 .rec-row{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
 .rec-dish{border:0;background:none;padding:0;text-align:left;font-size:11.5px;font-weight:600;color:var(--ink);display:grid;gap:4px;min-width:0}
 .rec-dish img,.rec-ph{width:100%;aspect-ratio:1;object-fit:cover;border-radius:12px;background:var(--sunk);display:grid;place-items:center;transition:transform .2s}
-.rec-dish:hover img{transform:scale(1.06) rotate(-2deg)}
+@media (hover:hover) and (pointer:fine){.rec-dish:hover img{transform:scale(1.06) rotate(-2deg)}}
 .rec-dish span{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
 .rec-fab{position:fixed;z-index:69;right:max(16px,env(safe-area-inset-right,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px));display:flex;align-items:center;gap:8px;border:0;border-radius:999px;padding:8px 16px 8px 10px;background:var(--lantern);color:#FFE9B0;font-weight:800;box-shadow:0 10px 24px rgb(215 38 30 / .4)}
 .fab-lantern{width:26px;height:22px;border-radius:46%/52%;background:radial-gradient(ellipse at 50% 40%,#FFD27A,#F2A500 70%);box-shadow:0 0 12px #FFD27A;animation:swing 3s ease-in-out infinite;transform-origin:50% -6px}
-.rec-fab:hover{filter:brightness(1.08);transform:translateY(-2px)}
+@media (hover:hover) and (pointer:fine){.rec-fab:hover{filter:brightness(1.08);transform:translateY(-2px)}}
 
 /* footer waves 青海波 */
 .site-foot{position:relative;padding-top:0}
