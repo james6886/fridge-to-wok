@@ -104,3 +104,106 @@ W("Baked Ziti","焗烤筆管麵","Italian","pasta kids comfort mealprep",1,8,600
   "10=Preheat the oven to 375°F and boil the ziti 2 minutes less than the package time; drain.|10=Brown the ground beef with chopped onion in olive oil, then add garlic.|15=Add the crushed tomatoes, oregano and salt and simmer into a thick sauce; stir in torn basil.|5=Mix the pasta with most of the sauce, layer half in a baking dish, dot with ricotta, add the rest and top with remaining sauce.|25=Cover with mozzarella and parmesan and bake until bubbling and golden.",
   "烤箱預熱至190°C，筆管麵比包裝時間少煮2分鐘後瀝乾。|橄欖油炒牛絞肉和洋蔥丁至上色，加入蒜末。|加入番茄碎、奧勒岡和鹽，小火煮成濃稠醬汁，拌入撕碎的羅勒。|麵與大部分醬汁拌勻，一半鋪入烤盤，點上瑞可塔起司，再鋪上另一半並淋上剩餘醬汁。|鋪滿莫札瑞拉和帕瑪森起司，烤到冒泡金黃。",
   "baked ziti");
+
+// Week of 2026-11-02
+ZING({"pork knuckle":"豬腳","misua":"麵線","angelica root":"當歸","chuanxiong":"川芎","astragalus":"黃耆","fish balls":"魚丸","curry powder":"咖哩粉","wheat gluten":"烤麩","dried lily flowers":"金針花乾","konjac":"蒟蒻","millet":"小米","red curry paste":"紅咖哩醬","chicken broth":"雞高湯","turkey breast":"火雞胸肉","rosemary":"迷迭香","pecans":"胡桃","leeks":"韭蔥"});
+W("Pork Knuckle with Misua","豬腳麵線","Taiwanese","noodle festive comfort protein",2,4,650,
+  "p:pork knuckle=2.5 lb;o:misua=8 oz;v:ginger=1 in;v:scallion=3 stalks;v:garlic=4 cloves;s:soy sauce=1/2 cup;s:rice wine=1/4 cup;s:rock sugar=2 tbsp;s:star anise=2 whole;s:sesame oil=1 tbsp;s:oil=1 tbsp",
+  "10=Blanch the pork knuckle pieces in boiling water with a few ginger slices, then rinse well and pat dry.|8=Melt the rock sugar in the oil until amber, add the pork and turn until glossy and browned, then add the garlic, ginger and scallion.|3=Pour in the soy sauce and rice wine, add the star anise and let it bubble for a few minutes.|90=Add water to just cover and simmer gently, covered, until the skin is sticky and tender, turning now and then.|3=Rinse the misua, boil it for 1 to 2 minutes until just soft, then drain and toss with the sesame oil.|2=Divide the misua among bowls and top with the pork and its braising liquid.",
+  "豬腳加幾片薑入滾水汆燙，洗淨擦乾。|油與冰糖炒到琥珀色，放入豬腳翻炒至上色發亮，再加蒜、薑和蔥。|倒入醬油和米酒，放八角，滾煮幾分鐘。|加水淹過豬腳，蓋上鍋蓋小火燉到外皮軟黏，中途翻面。|麵線沖洗後煮1到2分鐘至軟，瀝乾拌入麻油。|麵線分入碗中，放上豬腳並淋上滷汁。",
+  "豬腳麵線");
+W("Herbal Pork Rib Soup","藥燉排骨","Taiwanese","soup street comfort protein",1,4,360,
+  "p:pork ribs=1.5 lb;v:ginger=1 in;s:angelica root=4 slices;s:chuanxiong=4 slices;s:astragalus=6 slices;s:cinnamon stick=1 whole;s:red dates=8 whole;s:goji berries=2 tbsp;s:rice wine=1/2 cup;s:salt=1 tsp",
+  "10=Blanch the ribs in boiling water, then rinse off the scum.|2=Briefly rinse the angelica, chuanxiong, astragalus, cinnamon stick and red dates.|60=Put the ribs, herbs and sliced ginger in a pot with 8 cups water and long simmer, covered, until the ribs are tender.|10=Add the goji berries and rice wine and simmer for another 10 minutes.|1=Season with salt and serve hot.",
+  "排骨入滾水汆燙，洗去浮沫。|當歸、川芎、黃耆、桂枝和紅棗略為沖洗。|排骨、藥材和薑片放入鍋中，加8杯水，蓋上鍋蓋小火長時間燉到排骨軟嫩。|加入枸杞和米酒，再煮10分鐘。|以鹽調味，趁熱上桌。",
+  "藥燉排骨");
+W("Squid Thick Soup","魷魚羹","Taiwanese","soup street seafood",2,4,250,
+  "p:squid=1 lb;v:bamboo shoots=4 oz;v:napa cabbage=4 oz;v:carrot=1 whole;v:shiitake=4 pieces;v:garlic=3 cloves;v:cilantro=1 handful;s:sweet potato starch=1/2 cup;s:rice wine=1 tbsp;s:white pepper=1 tsp;s:shacha sauce=1 tbsp;s:soy sauce=2 tbsp;s:sugar=1 tbsp;s:cornstarch=3 tbsp;s:black vinegar=2 tbsp;s:oil=1 tbsp",
+  "15=Cut the squid into strips and marinate with rice wine and half the white pepper.|5=Coat the squid in sweet potato starch and let it sit a few minutes so the coating sticks.|5=Poach the squid in simmering water until the coating turns translucent, then lift out.|5=Fry the garlic, then the shredded shiitake, bamboo shoots, cabbage and carrot, in the oil.|10=Add 6 cups water, the shacha sauce, soy sauce and sugar and simmer until the vegetables are soft.|3=Stir in the cornstarch mixed with 1/3 cup water to thicken, return the squid, and finish with black vinegar, the remaining white pepper and cilantro.",
+  "魷魚切條，用米酒和一半的白胡椒醃製。|魷魚裹上地瓜粉，靜置幾分鐘讓粉附著。|魷魚放入微滾的水中煮到粉衣透明，撈起。|油爆香蒜末，再炒香菇絲、筍絲、白菜和紅蘿蔔絲。|加6杯水、沙茶醬、醬油和糖，煮到蔬菜變軟。|太白粉加1/3杯水調勻後倒入勾芡，放回魷魚，最後加烏醋、剩餘白胡椒和香菜。",
+  "魷魚羹");
+W("Taiwanese Cabbage Rice","高麗菜飯","Taiwanese","rice onepot kids comfort",1,4,540,
+  "o:rice=2 cups;v:cabbage=1 lb;p:pork belly=4 oz;p:dried shrimp=2 tbsp;v:shiitake=4 pieces;v:carrot=1/2 whole;v:shallot=3 whole;s:soy sauce=2 tbsp;s:white pepper=1/2 tsp;s:salt=1/2 tsp;s:oil=1 tbsp",
+  "10=Soak the dried shrimp and dried shiitake until soft; rinse the rice and shred the pork, shiitake, cabbage and carrot.|6=Fry the pork in the oil until it renders, then add the shallot, shrimp and shiitake until fragrant.|4=Add the soy sauce, white pepper, cabbage and carrot and stir until the cabbage just wilts.|20=Stir in the rice, salt and 1 3/4 cups water (the cabbage adds more), cover and cook on low, or finish in a rice cooker.|10=Turn off the heat and rest covered, then fluff everything together.",
+  "蝦米和乾香菇泡軟；米洗淨，豬肉、香菇、高麗菜和紅蘿蔔切絲。|油炒豬肉至出油，加入紅蔥頭、蝦米和香菇炒香。|加醬油、白胡椒、高麗菜和紅蘿蔔，炒到高麗菜剛變軟。|拌入米、鹽和1又3/4杯水（高麗菜會再出水），蓋上鍋蓋小火煮，或移入電鍋煮熟。|關火燜著靜置，再翻鬆拌勻。",
+  "高麗菜飯");
+W("Preserved Radish Omelette","菜脯蛋","Taiwanese","protein comfort",1,2,320,
+  "p:eggs=4 whole;v:pickled radish=3 oz;v:scallion=2 stalks;s:white pepper=1/4 tsp;s:sugar=1/2 tsp;s:oil=3 tbsp",
+  "3=Soak the chopped preserved radish in water, then squeeze dry to reduce the saltiness.|3=Fry the radish with the sugar in 1 tbsp oil until fragrant and lightly browned, then cool briefly.|2=Beat the eggs with the radish, chopped scallion and white pepper.|5=Heat the remaining oil, pour in the eggs, stir a few times and fry until the bottom is golden; flip and brown the other side.",
+  "切碎的菜脯泡水後擠乾，降低鹹度。|1大匙油加糖炒菜脯，炒到香氣出來且微微上色，稍微放涼。|雞蛋與菜脯、蔥花和白胡椒打勻。|剩餘的油燒熱，倒入蛋液，略為攪拌後煎到底部金黃，翻面煎到上色。",
+  "菜脯蛋");
+W("Savory Rice Pudding Bowls","碗粿","Taiwanese","street rice breakfast mealprep",2,6,370,
+  "o:rice flour=2 cups;p:ground pork=8 oz;p:dried shrimp=2 tbsp;v:shiitake=4 pieces;v:shallot=4 whole;v:garlic=3 cloves;s:sweet potato starch=2 tbsp;s:soy sauce=3 tbsp;s:five-spice=1/4 tsp;s:white pepper=1/2 tsp;s:sugar=1 tbsp;s:soy paste=1/3 cup;s:oil=2 tbsp",
+  "10=Soak the dried shrimp and dried shiitake, then chop the shiitake and slice the shallot.|10=Fry the shallot in the oil until golden, add the pork, shrimp and shiitake, and season with soy sauce, sugar, five-spice and white pepper.|3=Whisk the rice flour and sweet potato starch with 2 cups cold water into a smooth slurry.|5=Bring 4 cups water to a boil with a spoonful of the filling's sauce, then pour in the slurry, stirring until it forms a thick, smooth paste.|30=Ladle into 6 small bowls, top with the filling and steam over medium heat until set.|15=Rest until warm, then serve with soy paste mixed with crushed garlic.",
+  "蝦米和乾香菇泡軟，香菇切丁，紅蔥頭切片。|油炒紅蔥頭至金黃，加入絞肉、蝦米和香菇，以醬油、糖、五香粉和白胡椒調味。|在來米粉和地瓜粉加2杯冷水攪成滑順粉漿。|4杯水加一匙餡料的醬汁煮滾，倒入粉漿，不停攪拌成濃稠滑順的糊狀。|舀入6個小碗，鋪上餡料，中火蒸到凝固。|靜置到溫熱，搭配加了蒜泥的醬油膏食用。",
+  "碗粿");
+W("Red Bean Wheel Cakes","紅豆餅","Taiwanese","dessert street snack kids",2,8,250,
+  "o:flour=1 1/2 cups;o:milk=1 cup;o:butter=2 tbsp;o:red bean paste=1 cup;p:eggs=2 whole;s:baking powder=2 tsp;s:sugar=3 tbsp;s:salt=1 pinch;s:oil=1 tbsp",
+  "5=Whisk the eggs, sugar, milk and melted butter, then stir in the sifted flour, baking powder and salt until smooth.|30=Let the batter rest so it becomes silky.|3=Heat a wheel-cake pan, or oiled egg rings in a lidded nonstick skillet, over low heat.|4=Half-fill each mould with batter and cook until bubbles form and the edges set.|2=Add a spoonful of red bean paste to each one, then cover with more batter (or a second half from the pan).|4=Flip or close the moulds and cook until golden on both sides; serve warm.",
+  "雞蛋、糖、牛奶和融化奶油打勻，再拌入過篩的麵粉、泡打粉和鹽，攪到滑順。|麵糊靜置，讓它變得細滑。|紅豆餅模，或抹油的煎蛋圈放在附蓋的不沾鍋中，小火加熱。|每格倒入半滿麵糊，煎到冒泡、邊緣定型。|每個放一匙紅豆餡，再蓋上麵糊（或扣上另一半餅）。|翻面或合模，煎到兩面金黃，趁熱食用。",
+  "紅豆餅");
+W("Taiwanese Braised Napa Cabbage","白菜滷","Taiwanese","healthy comfort",1,4,190,
+  "v:napa cabbage=2 lb;v:shiitake=4 pieces;v:wood ear=1 handful;v:carrot=1/2 whole;v:garlic=3 cloves;p:dried shrimp=2 tbsp;p:eggs=2 whole;s:soy sauce=1 tbsp;s:white pepper=1/2 tsp;s:salt=1/2 tsp;s:oil=1/4 cup",
+  "15=Soak the dried shrimp, dried shiitake and wood ear, saving the soaking water, then slice everything and tear the cabbage into pieces.|4=Heat the oil and pour in the beaten eggs through a slotted spoon to form crisp egg floss; drain and set aside, keeping 1 tbsp oil.|4=Fry the garlic, shrimp and shiitake in the reserved oil until fragrant, then add the wood ear and carrot.|25=Add the cabbage, soy sauce and 1 cup of the soaking water, cover and braise until the cabbage is very soft and sweet.|3=Stir in most of the egg floss, season with salt and white pepper and top with the rest.",
+  "蝦米、乾香菇和木耳泡軟，泡發水留下，切絲，白菜撕成大片。|油燒熱，蛋液透過漏勺倒入，炸成酥脆蛋酥，瀝油備用，鍋中留1大匙油。|用留下的油炒香蒜末、蝦米和香菇，再加木耳和紅蘿蔔。|加入白菜、醬油和1杯泡發水，蓋上鍋蓋燜到白菜軟爛清甜。|拌入大部分蛋酥，以鹽和白胡椒調味，再鋪上剩餘蛋酥。",
+  "白菜滷");
+W("Pumpkin Millet Porridge","南瓜小米粥","Northern Chinese","breakfast healthy comfort",1,4,190,
+  "o:millet=3/4 cup;v:pumpkin=12 oz;s:red dates=6 whole;s:rock sugar=1 tbsp",
+  "3=Rinse the millet in a few changes of water and drain.|5=Peel and seed the pumpkin and cut it into small cubes.|5=Bring 7 cups water to a boil, then add the millet, pumpkin and dates.|30=Simmer uncovered on low, stirring now and then to prevent sticking, until thick and creamy.|3=Mash some of the pumpkin into the porridge and stir in the rock sugar to taste.",
+  "小米換幾次水淘洗後瀝乾。|南瓜去皮去籽，切小丁。|7杯水煮滾，放入小米、南瓜和紅棗。|不加蓋小火熬煮，不時攪拌以免黏鍋，煮到濃稠綿滑。|將部分南瓜壓碎拌入粥中，依口味加冰糖拌勻。",
+  "南瓜小米粥");
+W("Sichuan Water-Boiled Beef","水煮牛肉","Sichuan","spicy protein rice",2,4,480,
+  "p:beef flank=1 lb;p:eggs=1 whole;v:bean sprouts=8 oz;v:napa cabbage=8 oz;v:garlic=5 cloves;v:ginger=1 in;v:scallion=2 stalks;s:dried chili=15 whole;s:sichuan peppercorn=1 tbsp;s:doubanjiang=2 tbsp;s:cornstarch=2 tbsp;s:soy sauce=1 tbsp;s:rice wine=1 tbsp;s:salt=1/2 tsp;s:oil=1/2 cup",
+  "15=Slice the beef thinly against the grain and marinate with the egg white, cornstarch, soy sauce and rice wine.|5=Toast the dried chili and Sichuan peppercorns in a dry pan until fragrant, then coarsely chop them.|4=Stir-fry the cabbage and bean sprouts in a little oil with the salt until just cooked, and spread in a large bowl.|6=Fry the doubanjiang in 3 tbsp oil until the oil turns red, add ginger and half the garlic, then pour in 3 cups water and bring to a boil.|3=Slide in the beef slices one by one and poach just until no longer pink; pour over the vegetables.|2=Top with the chopped spices, remaining garlic and scallion, heat the rest of the oil until shimmering and pour it over to sizzle.",
+  "牛肉逆紋切薄片，用蛋白、太白粉、醬油和米酒醃製。|乾辣椒和花椒入乾鍋炒香，切成粗末。|白菜和豆芽加少許油和鹽炒到剛熟，鋪在大碗底。|3大匙油炒豆瓣醬至紅油釋出，加薑和一半蒜末，倒入3杯水煮滾。|牛肉片一片片放入，煮到剛變色，連湯倒在蔬菜上。|鋪上切碎的辣椒花椒、剩餘蒜末和蔥花，將剩下的油燒熱，淋上去激出香氣。",
+  "水煮牛肉");
+W("Shrimp with Silky Scrambled Eggs","滑蛋蝦仁","Cantonese","protein seafood kids rice",1,3,340,
+  "p:shrimp=8 oz;p:eggs=6 whole;v:scallion=2 stalks;s:cornstarch=1 tsp;s:rice wine=1 tsp;s:salt=1/2 tsp;s:white pepper=1/4 tsp;s:sesame oil=1 tsp;s:oil=3 tbsp",
+  "10=Toss the peeled shrimp with cornstarch, rice wine and a pinch of salt and let them sit.|2=Beat the eggs with the remaining salt, white pepper, sesame oil and chopped scallion.|2=Sear the shrimp in 1 tbsp oil until just pink, then stir them into the eggs.|2=Heat the remaining oil over medium-low, pour in the mixture and gently push with a spatula from the edges in, stopping while still glossy and barely set.",
+  "蝦仁去殼，用太白粉、米酒和少許鹽抓勻靜置。|雞蛋加入剩餘的鹽、白胡椒、香油和蔥花打散。|1大匙油將蝦仁煎到剛變紅，拌入蛋液中。|剩餘的油以中小火燒熱，倒入蛋液，用鏟子由外往內輕推，在仍有光澤、剛凝固時起鍋。",
+  "滑蛋蝦仁");
+W("Four Happiness Kao Fu","四喜烤麩","Shanghainese","healthy mealprep festive",2,6,220,
+  "o:wheat gluten=10 oz;o:peanuts=1/3 cup;v:shiitake=6 pieces;v:wood ear=1 handful;v:dried lily flowers=1 handful;s:soy sauce=3 tbsp;s:dark soy sauce=1 tbsp;s:shaoxing wine=2 tbsp;s:rock sugar=2 tbsp;s:star anise=1 whole;s:sesame oil=1 tsp;s:oil=1/4 cup",
+  "30=Soak the dried shiitake, wood ear, lily flowers and peanuts in separate bowls of water until soft; save the shiitake water and knot the lily flowers.|8=Tear the wheat gluten into bite-size pieces, boil for 5 minutes, then squeeze out the water.|8=Fry the gluten in the oil until golden on all sides.|5=Add the shiitake, wood ear, lily flowers and peanuts and stir-fry briefly.|25=Add the soy sauces, wine, rock sugar, star anise and 1 1/2 cups shiitake water and simmer, covered, until the gluten is well flavoured.|30=Uncover, reduce until glossy, drizzle with sesame oil and cool to room temperature to serve.",
+  "乾香菇、木耳、金針和花生分別泡水至軟，香菇水留下，金針打結。|烤麩撕成一口大小，水煮5分鐘後擠乾。|油煎烤麩到各面金黃。|加入香菇、木耳、金針和花生略炒。|加入兩種醬油、紹興酒、冰糖、八角和1又1/2杯香菇水，蓋上鍋蓋小火燒到烤麩入味。|開蓋收汁至發亮，淋上香油，放涼至室溫後食用。",
+  "四喜烤麩");
+W("Hakka Stuffed Tofu","客家釀豆腐","Hakka","protein comfort rice",2,4,450,
+  "p:tofu=2 blocks;p:ground pork=12 oz;p:dried shrimp=2 tbsp;v:shiitake=4 pieces;v:scallion=3 stalks;s:soy sauce=2 tbsp;s:oyster sauce=1 tbsp;s:cornstarch=2 tsp;s:white pepper=1/2 tsp;s:sesame oil=1 tsp;s:oil=2 tbsp",
+  "15=Soak the dried shrimp and dried shiitake until soft, then finely chop them with half the scallion.|5=Mix the ground pork with the shrimp, shiitake, chopped scallion, 1 tbsp soy sauce, white pepper and sesame oil, stirring until sticky.|5=Cut each block of firm tofu into 4 triangles, scoop a small pocket into the long side and pack in the filling.|6=Pan-fry the tofu in the oil, filling side down first, until golden on all sides.|10=Add the remaining soy sauce, oyster sauce and 3/4 cup water, cover and simmer until the pork is cooked through.|2=Stir in the cornstarch mixed with a little water to thicken and top with the remaining scallion.",
+  "蝦米和乾香菇泡軟，與一半的蔥一起切碎。|絞肉加入蝦米、香菇、蔥末、1大匙醬油、白胡椒和香油，攪拌到有黏性。|每塊板豆腐切成4個三角形，從長邊挖出小袋口，塞入肉餡。|油煎豆腐，肉餡面朝下先煎，煎到各面金黃。|加入剩餘醬油、蠔油和3/4杯水，蓋上鍋蓋小火煮到肉熟透。|太白粉加少許水調勻後勾芡，撒上剩餘蔥花。",
+  "釀豆腐");
+W("Hong Kong Curry Fish Balls","港式咖哩魚蛋","Hong Kong","street snack spicy",1,4,230,
+  "p:fish balls=1 lb;v:onion=1/2 whole;v:garlic=3 cloves;o:evaporated milk=1/4 cup;s:curry powder=2 tbsp;s:oyster sauce=1 tbsp;s:sugar=1 tsp;s:cornstarch=1 tsp;s:oil=2 tbsp",
+  "3=Chop the onion and garlic finely.|4=Fry the onion in the oil until soft, then add the garlic.|2=Add the curry powder and stir until fragrant, taking care not to burn it.|12=Add 1 1/2 cups water, the oyster sauce, sugar and fish balls and simmer until they swell.|3=Stir in the evaporated milk and the cornstarch mixed with a little water and simmer until glossy; serve on skewers.",
+  "洋蔥和蒜切碎。|油炒洋蔥至軟，加入蒜末。|加入咖哩粉炒香，小心不要炒焦。|加1又1/2杯水、蠔油、糖和魚丸，小火煮到魚丸膨脹。|拌入奶水和加了少許水調勻的太白粉，煮到醬汁發亮，串起來享用。",
+  "咖喱魚蛋");
+W("Japanese Oden","關東煮","Japanese","soup healthy comfort onepot",2,4,270,
+  "v:daikon=1 lb;p:eggs=4 whole;o:konjac=1 block;p:fish cake=8 oz;p:tofu puffs=4 pieces;s:dashi=6 cups;s:soy sauce=3 tbsp;s:mirin=3 tbsp;s:sugar=1 tbsp;s:mustard=1 tbsp",
+  "15=Peel the daikon, cut it into 1-inch rounds and boil until a skewer goes in with some resistance.|10=Hard-boil the eggs and peel them.|5=Score the konjac, cut it into triangles and blanch to remove the smell.|3=Combine the dashi, soy sauce, mirin and sugar in a wide pot and bring to a gentle simmer.|60=Add the daikon, eggs and konjac and long simmer on low, without boiling, until the daikon is deeply flavoured.|15=Add the fish cake and tofu puffs and simmer until hot; serve with mustard.",
+  "白蘿蔔去皮，切成約2.5公分厚的圓片，煮到竹籤能插入但略有阻力。|雞蛋煮熟後剝殼。|蒟蒻劃刀切三角形，汆燙去味。|高湯、醬油、味醂和糖放入寬鍋，小火加熱至微滾。|放入白蘿蔔、蛋和蒟蒻，小火長時間慢燉不煮滾，直到白蘿蔔入味。|加入魚板和豆腐泡，煮到熱透，搭配黃芥末食用。",
+  "おでん");
+W("Korean Sweet Pancakes (Hotteok)","韓式糖餅","Korean","dessert street snack kids",2,8,290,
+  "o:flour=2 cups;o:glutinous rice flour=1/2 cup;o:milk=1 cup;o:yeast=1 1/2 tsp;o:walnuts=1/4 cup;s:sugar=2 tbsp;s:salt=1/2 tsp;s:brown sugar=1/2 cup;s:cinnamon=1 tsp;s:oil=3 tbsp",
+  "5=Mix warm milk with the yeast and sugar, then stir in both flours and the salt to make a sticky dough.|60=Cover and let the dough rest in a warm place until doubled.|3=Combine the brown sugar, cinnamon and chopped walnuts for the filling.|5=With oiled hands, divide the dough into 8, flatten each piece, add a spoonful of filling and pinch closed.|15=Fry each one seam side down in oil over medium heat, flip and press flat with a spatula, then cook until golden and crisp on both sides.",
+  "溫牛奶加酵母和糖拌勻，再拌入兩種麵粉和鹽，揉成黏手的麵團。|蓋上靜置在溫暖處，發到兩倍大。|黑糖、肉桂粉和切碎的核桃混合成內餡。|手抹油，麵團分成8份，壓扁，放入一匙內餡後捏緊收口。|收口朝下入油鍋以中火煎，翻面後用鍋鏟壓平，煎到兩面金黃酥脆。",
+  "hotteok");
+W("Thai Khao Soi","泰北金麵","Thai","noodle spicy comfort",2,4,750,
+  "p:chicken thigh=1 lb;o:egg noodles=12 oz;o:coconut milk=1 can;v:shallot=3 whole;v:garlic=3 cloves;v:ginger=1 in;v:pickled mustard greens=1/2 cup;v:lime=1 whole;v:cilantro=1 handful;s:red curry paste=3 tbsp;s:curry powder=1 tbsp;s:turmeric=1 tsp;s:fish sauce=2 tbsp;s:brown sugar=1 tbsp;s:chicken broth=3 cups;s:oil=2 tbsp",
+  "5=Fry a small handful of the noodles in hot oil until crisp and golden, and drain for topping.|5=Fry the shallot, garlic, ginger, curry paste, curry powder and turmeric in 2 tbsp oil until fragrant.|5=Add the chicken pieces and turn to coat in the paste, then stir in half the coconut milk.|20=Add the broth, remaining coconut milk, fish sauce and brown sugar and simmer until the chicken is tender.|5=Boil the remaining noodles until tender and divide among bowls.|2=Ladle over the curry and top with crispy noodles, pickled mustard greens, cilantro and lime.",
+  "一小把麵入熱油炸到金黃酥脆，瀝油作為配料。|2大匙油炒香紅蔥頭、蒜、薑、咖哩醬、咖哩粉和薑黃粉。|放入雞肉塊翻炒裹上醬料，再拌入一半椰奶。|加入高湯、剩餘椰奶、魚露和黑糖，小火煮到雞肉軟嫩。|其餘麵條煮軟，分入碗中。|淋上咖哩，放上酥炸麵、酸菜、香菜和萊姆。",
+  "khao soi");
+W("Herb-Roasted Turkey Breast","香草烤火雞胸","American","protein healthy festive",2,6,320,
+  "p:turkey breast=3 lb;o:butter=3 tbsp;v:garlic=4 cloves;v:lemon=1 whole;v:onion=1 whole;s:thyme=1 tsp;s:rosemary=1 tsp;s:salt=2 tsp;s:black pepper=1 tsp;s:olive oil=1 tbsp",
+  "10=Preheat the oven to 350°F and pat the bone-in, skin-on turkey breast dry; mash the butter with minced garlic, thyme, rosemary, lemon zest, salt and pepper.|5=Loosen the skin, rub most of the herb butter underneath and the rest over the top, then drizzle with olive oil.|5=Set the turkey on the onion wedges and lemon slices in a roasting pan and add 1 cup water.|90=Roast, basting occasionally, until a thermometer in the thickest part reads 165°F.|20=Tent with foil and rest before carving so the juices settle.|5=Carve across the grain and spoon the pan juices over.",
+  "烤箱預熱至180°C，帶骨帶皮火雞胸擦乾；奶油與蒜末、百里香、迷迭香、檸檬皮屑、鹽和胡椒拌勻。|輕輕拉開雞皮，將大部分香草奶油抹在皮下，其餘抹在表面，淋上橄欖油。|烤盤鋪洋蔥塊和檸檬片，放上火雞胸，加1杯水。|烘烤，不時淋上湯汁，直到最厚處溫度達74°C。|蓋上鋁箔靜置，讓肉汁回流再切。|逆紋切片，淋上盤中肉汁。",
+  "roast turkey breast");
+W("Sweet Potato Casserole","美式焗烤地瓜","American","kids festive comfort",1,8,450,
+  "v:sweet potato=3 lb;p:eggs=2 whole;o:butter=1/2 cup;o:milk=1/2 cup;o:flour=1/3 cup;o:pecans=1 cup;s:brown sugar=2/3 cup;s:vanilla=1 tsp;s:cinnamon=1 tsp;s:salt=1/2 tsp",
+  "25=Peel and cube the sweet potatoes, boil until very tender and drain well.|5=Preheat the oven to 350°F and mash the potatoes with half the butter, 1/3 cup brown sugar, eggs, milk, vanilla, cinnamon and salt.|3=Spread the mash in a buttered 9x13-inch baking dish.|3=Rub the remaining butter and brown sugar into the flour until crumbly, then stir in the chopped pecans.|30=Sprinkle the topping evenly and bake until golden and bubbling at the edges.|5=Rest a few minutes before serving.",
+  "地瓜去皮切塊，煮到非常軟後充分瀝乾。|烤箱預熱至180°C，地瓜壓成泥，加入一半奶油、1/3杯黑糖、雞蛋、牛奶、香草、肉桂粉和鹽拌勻。|地瓜泥鋪入抹了奶油的約23×33公分烤盤。|剩餘奶油和黑糖與麵粉搓成粗粒，再拌入切碎的胡桃。|均勻撒上酥粒，烤到金黃、邊緣冒泡。|靜置幾分鐘後上桌。",
+  "sweet potato casserole");
+W("Leek and Potato Soup","法式韭蔥馬鈴薯濃湯","French","soup healthy comfort",1,4,290,
+  "v:leeks=3 whole;v:potato=1.5 lb;o:butter=2 tbsp;o:cream=1/4 cup;s:vegetable broth=5 cups;s:thyme=1/2 tsp;s:salt=1 tsp;s:black pepper=1/2 tsp",
+  "5=Slice the white and pale green parts of the leeks, wash them well in water and drain; peel and dice the potatoes.|10=Melt the butter in a pot and gently cook the leeks with the salt until very soft but not browned.|25=Add the potatoes, broth and thyme and simmer until the potatoes fall apart.|4=Blend until smooth, thinning with a splash of water if needed.|3=Stir in the cream, season with black pepper and warm through without boiling.",
+  "韭蔥取蔥白和淺綠部分切片，用水洗淨瀝乾；馬鈴薯去皮切丁。|奶油融化，加鹽以小火炒韭蔥，炒到很軟但不上色。|加入馬鈴薯、蔬菜高湯和百里香，小火煮到馬鈴薯軟爛。|打成滑順濃湯，太濃可加少許水。|拌入鮮奶油，以黑胡椒調味，加熱但不煮滾。",
+  "potage parmentier");
