@@ -207,3 +207,106 @@ W("Leek and Potato Soup","法式韭蔥馬鈴薯濃湯","French","soup healthy co
   "5=Slice the white and pale green parts of the leeks, wash them well in water and drain; peel and dice the potatoes.|10=Melt the butter in a pot and gently cook the leeks with the salt until very soft but not browned.|25=Add the potatoes, broth and thyme and simmer until the potatoes fall apart.|4=Blend until smooth, thinning with a splash of water if needed.|3=Stir in the cream, season with black pepper and warm through without boiling.",
   "韭蔥取蔥白和淺綠部分切片，用水洗淨瀝乾；馬鈴薯去皮切丁。|奶油融化，加鹽以小火炒韭蔥，炒到很軟但不上色。|加入馬鈴薯、蔬菜高湯和百里香，小火煮到馬鈴薯軟爛。|打成滑順濃湯，太濃可加少許水。|拌入鮮奶油，以黑胡椒調味，加熱但不煮滾。",
   "potage parmentier");
+
+// Week of 2026-11-09
+ZING({"dried longan":"桂圓肉","yellow pickled radish":"黃蘿蔔（醃蘿蔔）","cauliflower":"花椰菜","crispy fried onions":"酥炸洋蔥","sage":"鼠尾草","corn syrup":"玉米糖漿"});
+W("Taiwanese Breakfast Rice Ball","台式飯糰","Taiwanese","breakfast rice street kids",2,4,480,
+  "o:glutinous rice=2 cups;o:youtiao=2 whole;p:pork floss=1/2 cup;v:pickled radish=1/2 cup;p:eggs=2 whole;s:soy sauce=1 tsp;s:sugar=1 tsp;s:oil=1 tbsp",
+  "240=Rinse the glutinous rice and soak it in cold water until the grains turn opaque.|30=Drain and steam the rice over a cloth-lined steamer until tender and sticky.|5=Stir-fry the chopped pickled radish in the oil with the sugar and soy sauce until fragrant.|4=Beat the eggs and fry a thin omelette, then cut it into strips; cut each youtiao into short lengths and crisp them in a hot oven or air fryer.|8=Spread a quarter of the warm rice on plastic wrap over a towel, layer on pork floss, radish, egg and youtiao, then roll up tightly, squeezing into an oval log.",
+  "糯米洗淨，用冷水浸泡到米粒變不透明。|瀝乾，在鋪了蒸籠布的蒸籠中蒸到軟黏。|菜脯切碎，加油、糖和醬油炒香。|雞蛋打散煎成薄蛋皮後切條；油條切小段，用烤箱或氣炸鍋烤脆。|在毛巾上鋪保鮮膜，攤上四分之一的溫糯米飯，依序放肉鬆、菜脯、蛋絲和油條，用力捲緊捏成橢圓形。",
+  "飯糰");
+W("Sesame Oil Misua","麻油麵線","Taiwanese","noodle comfort",1,2,430,
+  "o:misua=6 oz;v:ginger=2 in;p:eggs=2 whole;v:goji berries=1 tbsp;s:sesame oil=3 tbsp;s:rice wine=2 tbsp;s:soy sauce=1 tbsp;s:salt=1/4 tsp",
+  "3=Slice the ginger thinly and rinse the goji berries.|5=Warm the sesame oil over low heat and fry the ginger until its edges curl and turn golden, without letting the oil smoke.|3=Push the ginger aside and fry the eggs in the sesame oil until the edges are crisp.|3=Boil the misua for about 1 minute until just soft, then drain.|2=Toss the noodles in the pan with the ginger oil, rice wine, soy sauce, salt and goji berries and serve topped with the eggs.",
+  "薑切薄片，枸杞洗淨。|小火加熱麻油，放入薑片煸到邊緣捲起金黃，不要讓油冒煙。|薑片推到一邊，用麻油煎蛋，煎到邊緣酥脆。|麵線入滾水煮約1分鐘到剛軟，撈起瀝乾。|麵線放入鍋中與薑油、米酒、醬油、鹽和枸杞拌勻，放上煎蛋即可。",
+  "麻油麵線");
+W("Soy-Braised Chicken Drumsticks","台式滷雞腿","Taiwanese","kids protein rice comfort mealprep",1,4,380,
+  "p:chicken drumsticks=8 pieces;v:ginger=1 in;v:scallion=3 stalks;v:garlic=4 cloves;s:soy sauce=1/3 cup;s:dark soy sauce=1 tbsp;s:rice wine=3 tbsp;s:rock sugar=1 tbsp;s:star anise=2 whole;s:oil=1 tbsp",
+  "5=Blanch the drumsticks in boiling water for 3 minutes, then rinse.|3=Fry the ginger slices, smashed garlic and scallion lengths in the oil until fragrant.|2=Add the rock sugar and stir until it melts, then add both soy sauces, rice wine and star anise.|35=Add the drumsticks and enough water to almost cover, bring to a boil and simmer covered, turning once, until tender.|20=Turn off the heat and let the drumsticks soak in the braising liquid so they take on colour, then reheat and serve over rice.",
+  "雞腿放入滾水汆燙3分鐘後洗淨。|油爆香薑片、拍碎的蒜和蔥段。|加入冰糖炒到融化，再加入兩種醬油、米酒和八角。|放入雞腿，加水到快蓋過，煮滾後蓋鍋小火燉煮，中途翻面一次，煮到軟嫩。|關火讓雞腿浸泡在滷汁中上色，再加熱後搭配白飯。",
+  "滷雞腿");
+W("Shiitake Chicken Soup","香菇雞湯","Taiwanese","soup healthy protein comfort",1,4,290,
+  "p:chicken drumsticks=6 pieces;v:shiitake=10 pieces;v:ginger=2 in;v:red dates=6 whole;v:goji berries=1 tbsp;s:rice wine=2 tbsp;s:salt=1 tsp",
+  "30=Soak the dried shiitake in warm water until soft, then trim the stems and keep the soaking water.|5=Chop the drumsticks into pieces and blanch them for 3 minutes, then rinse.|3=Put the chicken, shiitake, sliced ginger and red dates in a pot with the strained mushroom water and 6 cups water.|50=Bring to a boil, skim, then simmer on low until the chicken is tender and the broth is rich.|3=Add the goji berries, rice wine and salt and simmer 3 minutes more.",
+  "乾香菇用溫水泡軟，剪去蒂頭，保留泡香菇的水。|雞腿剁塊，汆燙3分鐘後洗淨。|雞肉、香菇、薑片和紅棗放入鍋中，加入過濾後的香菇水和6杯水。|煮滾撈去浮沫，轉小火燉到雞肉軟嫩、湯頭濃郁。|加入枸杞、米酒和鹽，再煮3分鐘。",
+  "香菇雞湯");
+W("Taiwanese Rice Noodle Soup","米粉湯","Taiwanese","soup noodle street comfort",1,4,380,
+  "o:rice vermicelli=8 oz;p:pork shoulder=1 lb;p:dried shrimp=2 tbsp;v:celery=2 stalks;v:shallot=4 whole;v:napa cabbage=1/2 heads;s:white pepper=1/2 tsp;s:salt=1 1/2 tsp;s:oil=2 tbsp",
+  "40=Simmer the whole piece of pork shoulder in 8 cups water until cooked through, skimming, then lift it out and slice; keep the broth.|5=Slice the shallots thinly and fry them in the oil until golden; set aside the crispy shallots and oil.|3=Fry the soaked dried shrimp in the shallot oil until fragrant and add them to the broth with the sliced napa cabbage.|15=Add the thick rice vermicelli and simmer until soft and slightly thickening the broth.|2=Season with salt and white pepper and serve topped with sliced pork, chopped celery and fried shallots.",
+  "整塊梅花肉放入8杯水中小火煮熟，撈去浮沫後取出切片，保留湯。|紅蔥頭切薄片，用油炸到金黃，撈出油蔥酥並保留油。|泡軟的蝦米用油蔥油炒香，連同大白菜絲一起加入湯中。|放入粗米粉，小火煮到軟且湯頭略微濃稠。|以鹽和白胡椒調味，放上豬肉片、芹菜末和油蔥酥。",
+  "米粉湯");
+W("Longan Sticky Rice Porridge","桂圓糯米粥","Taiwanese","dessert comfort",1,6,260,
+  "o:glutinous rice=3/4 cup;v:dried longan=1/2 cup;s:brown sugar=1/3 cup;s:rice wine=1 tbsp",
+  "60=Rinse the glutinous rice and soak it in water.|45=Simmer the drained rice in 7 cups water on low, stirring now and then so it doesn't stick, until the grains burst and turn creamy.|10=Add the dried longan and simmer until plump.|3=Stir in the brown sugar until dissolved and finish with the rice wine; serve warm.",
+  "糯米洗淨後泡水。|瀝乾的糯米加7杯水小火熬煮，不時攪拌避免黏鍋，煮到米粒開花綿稠。|加入桂圓肉煮到膨脹。|拌入黑糖到溶化，最後淋上米酒，趁熱享用。",
+  "桂圓粥");
+W("Taiwanese Minced Pork Dry Noodles","肉燥乾麵","Taiwanese","noodle street kids",1,4,520,
+  "p:ground pork=12 oz;o:wheat noodles=1 lb;v:shallot=4 whole;v:garlic=3 cloves;v:bean sprouts=2 cups;v:garlic chives=1 bunch;s:soy sauce=4 tbsp;s:rice wine=1 tbsp;s:sugar=2 tsp;s:white pepper=1/4 tsp;s:oil=2 tbsp",
+  "5=Fry the sliced shallots in the oil until golden, then add the minced garlic.|5=Add the ground pork and stir-fry until it loses its pink colour and starts to brown.|20=Add the soy sauce, rice wine, sugar, white pepper and 1 cup water and simmer until the sauce is glossy and reduced.|6=Boil the noodles, adding the bean sprouts and cut garlic chives for the last 30 seconds, then drain.|2=Toss the noodles with a few spoons of the meat sauce and its oil and serve.",
+  "紅蔥頭切片用油炸到金黃，再加入蒜末。|加入絞肉炒到變色並微微上色。|加入醬油、米酒、糖、白胡椒和1杯水，小火煮到醬汁發亮收汁。|煮麵，最後30秒加入豆芽菜和韭菜段，一起撈起瀝乾。|麵條拌入幾匙肉燥和油即可。",
+  "肉燥麵");
+W("Angelica Lamb Soup","當歸羊肉湯","Taiwanese","soup festive protein comfort",2,4,360,
+  "p:lamb=1.5 lb;v:angelica root=3 slices;v:chuanxiong=2 slices;v:red dates=8 whole;v:goji berries=1 tbsp;v:ginger=2 in;s:rice wine=1/2 cup;s:sesame oil=1 tbsp;s:salt=1 tsp",
+  "5=Cut the bone-in lamb into chunks, blanch for 5 minutes and rinse well.|5=Fry the sliced ginger in the sesame oil until fragrant, then add the lamb and stir-fry briefly.|3=Add the angelica root, chuanxiong, red dates, rice wine and 7 cups water.|75=Bring to a boil, then simmer covered on low until the lamb is tender.|3=Add the goji berries and salt and simmer 3 minutes before serving.",
+  "帶骨羊肉切塊，汆燙5分鐘後洗淨。|麻油爆香薑片，加入羊肉略炒。|加入當歸、川芎、紅棗、米酒和7杯水。|煮滾後蓋鍋小火燉到羊肉軟嫩。|加入枸杞和鹽再煮3分鐘即可。",
+  "當歸羊肉湯");
+W("Hand-Torn Cabbage Stir-Fry","手撕包菜","Sichuan","spicy healthy",1,3,140,
+  "v:cabbage=1 lb;v:garlic=4 cloves;v:dried chili=6 whole;s:sichuan peppercorn=1 tsp;s:black vinegar=1 tbsp;s:soy sauce=1 tbsp;s:sugar=1/2 tsp;s:salt=1/2 tsp;s:oil=2 tbsp",
+  "4=Tear the cabbage into bite-size pieces by hand, discarding the thick core, then wash and dry well.|2=Fry the Sichuan peppercorns in the oil over low heat until fragrant, then remove them.|1=Add the sliced garlic and cut dried chilies and fry until fragrant without burning.|3=Turn the heat to high and stir-fry the cabbage until it just wilts with charred edges.|1=Splash the vinegar around the side of the wok, add the soy sauce, sugar and salt, toss and serve.",
+  "高麗菜用手撕成適口大小，去掉粗梗，洗淨瀝乾。|花椒用油小火炸香後撈出。|放入蒜片和剪段的乾辣椒炒香，不要炒焦。|轉大火下高麗菜快炒，炒到剛軟、邊緣微焦。|沿鍋邊嗆入醋，加入醬油、糖和鹽，拌炒均勻即可。",
+  "手撕包菜");
+W("Ginger Milk Curd","薑汁撞奶","Cantonese","dessert",2,2,170,
+  "o:milk=1 1/2 cups;v:ginger=2 in;s:sugar=2 tbsp",
+  "3=Grate the old ginger finely and squeeze it through cheesecloth to get about 2 tbsp of fresh juice; divide between two bowls.|4=Heat the whole milk with the sugar, stirring, until it reaches about 165–175°F, steaming but not boiling.|1=From a height, pour the hot milk quickly into the bowls of ginger juice and do not stir.|10=Leave the bowls undisturbed until the milk sets into a soft curd, then serve warm.",
+  "老薑磨成細泥，用紗布擠出約2大匙薑汁，分到兩個碗中。|全脂牛奶加糖邊攪邊加熱至約75–80°C，冒熱氣但不沸騰。|從高處把熱牛奶快速沖入薑汁碗中，不要攪拌。|靜置不動，等牛奶凝固成嫩滑的奶凍後趁熱享用。",
+  "薑汁撞奶");
+W("Shanghai Vegetable Rice","上海菜飯","Shanghainese","rice comfort onepot",1,4,470,
+  "o:rice=2 cups;v:bok choy=1 lb;p:chinese sausage=2 pieces;s:oil=1 tbsp;s:salt=1 tsp",
+  "3=Rinse the rice; dice the Chinese sausage; wash the Shanghai bok choy and chop it, keeping stems and leaves separate.|3=Fry the sausage in the oil until it releases its fat, then add the bok choy stems and stir-fry briefly.|2=Add the leaves and salt and toss until just wilted.|25=Mix everything with the rice in a rice cooker or pot, add slightly less water than usual and cook.|10=Let the rice rest covered, then fluff and mix well before serving.",
+  "米洗淨；臘腸切丁；青江菜洗淨切碎，菜梗和菜葉分開。|油炒臘腸逼出油脂，加入菜梗略炒。|加入菜葉和鹽，炒到剛軟。|全部和米拌勻放入電鍋或鍋中，水量比平常略少，煮熟。|蓋著燜一下，翻鬆拌勻後上桌。",
+  "上海菜飯");
+W("Pork and Napa Cabbage Stew with Glass Noodles","白菜豬肉燉粉條","Northern Chinese","onepot comfort",1,4,480,
+  "p:pork belly=1 lb;v:napa cabbage=1 heads;o:sweet potato noodles=4 oz;v:ginger=1 in;v:scallion=3 stalks;s:soy sauce=3 tbsp;s:dark soy sauce=1 tsp;s:star anise=1 whole;s:salt=1/2 tsp;s:oil=1 tbsp",
+  "30=Soak the sweet potato noodles in warm water until pliable.|5=Slice the pork belly and fry it in the oil until the fat renders and the edges brown.|2=Add the ginger, scallion and star anise and fry until fragrant, then add both soy sauces.|20=Add 3 cups water, bring to a boil and simmer for 15–20 minutes.|8=Add the napa cabbage stems, then the leaves, and cook until soft.|6=Add the drained noodles and simmer until they turn clear and absorb the broth; season with salt.",
+  "粉條用溫水泡軟。|五花肉切片，用油煎到出油、邊緣上色。|加入薑、蔥和八角炒香，再加入兩種醬油。|加3杯水煮滾，小火燉15到20分鐘。|先放白菜梗再放白菜葉，煮到軟。|加入瀝乾的粉條，燉到透明並吸收湯汁，以鹽調味。",
+  "白菜燉粉條");
+W("Hunan Stir-Fried Beef","小炒黃牛肉","Hunan","spicy protein rice",2,3,350,
+  "p:beef flank=12 oz;v:chili pepper=6 whole;v:garlic=4 cloves;v:ginger=1 in;v:cilantro=1 handful;s:soy sauce=1 tbsp;s:oyster sauce=1 tbsp;s:rice wine=1 tbsp;s:cornstarch=2 tsp;s:oil=3 tbsp",
+  "15=Slice the beef very thinly across the grain and marinate it with the soy sauce, rice wine and cornstarch.|3=Slice the chilies, garlic and ginger and cut the cilantro into lengths.|2=Sear the beef in 2 tbsp very hot oil until it just changes colour, then remove.|2=Stir-fry the chilies, garlic and ginger in the remaining oil until blistered and fragrant.|1=Return the beef, add the oyster sauce and cilantro, toss on high heat for 30 seconds and serve.",
+  "牛肉逆紋切薄片，用醬油、米酒和太白粉醃漬。|辣椒、蒜、薑切片，香菜切段。|2大匙油燒到很熱，下牛肉快炒到剛變色後盛出。|用剩下的油炒辣椒、蒜和薑，炒到起皺、香氣出來。|牛肉回鍋，加入蠔油和香菜，大火拌炒30秒即可。",
+  "小炒黄牛肉");
+W("Hong Kong Ham Macaroni Soup","港式火腿通粉","Hong Kong","breakfast kids soup",1,2,420,
+  "o:macaroni=4 oz;p:ham=4 slices;p:eggs=2 whole;v:corn=1/2 cup;s:chicken broth=3 cups;s:white pepper=1 pinch;s:oil=1 tsp",
+  "8=Boil the macaroni until tender, then drain.|2=Cut the ham into thin strips.|4=Fry the eggs sunny side up in the oil.|4=Bring the chicken broth to a boil with the corn and ham.|2=Add the macaroni, season with white pepper and serve topped with the fried eggs.",
+  "通心粉煮軟後瀝乾。|火腿切細條。|用油煎太陽蛋。|雞高湯加入玉米和火腿煮滾。|加入通心粉，以白胡椒調味，放上煎蛋即可。",
+  "火腿通粉");
+W("Nikujaga (Japanese Beef and Potato Stew)","日式馬鈴薯燉肉","Japanese","comfort onepot kids",1,4,420,
+  "p:beef chuck=8 oz;v:potato=1.5 lb;v:carrot=1 whole;v:onion=1 whole;v:snow peas=1 handful;s:dashi=1 1/2 cups;s:soy sauce=3 tbsp;s:mirin=2 tbsp;s:rice wine=2 tbsp;s:sugar=1 tbsp;s:oil=1 tbsp",
+  "5=Cut the potatoes into large chunks, the carrot into wedges and the onion into thick slices; slice the beef thinly.|4=Fry the beef in the oil until it changes colour, then add the onion, potatoes and carrot and toss.|3=Add the dashi, rice wine, sugar and mirin and bring to a boil, skimming off the foam.|5=Add the soy sauce, then cover with a drop lid or a circle of foil.|15=Simmer on medium-low until the potatoes are tender and the liquid has reduced by about half.|2=Blanch the snow peas and scatter them over before serving.",
+  "馬鈴薯切大塊，紅蘿蔔切滾刀塊，洋蔥切粗條；牛肉切薄片。|油炒牛肉到變色，加入洋蔥、馬鈴薯和紅蘿蔔拌炒。|加入高湯、米酒、糖和味醂煮滾，撈去浮沫。|加入醬油，蓋上落蓋或一張圓形鋁箔。|中小火燉到馬鈴薯軟、湯汁收到約一半。|甜豆莢汆燙後撒在上面即可上桌。",
+  "肉じゃが");
+W("Korean Kimbap","韓式飯捲","Korean","rice kids snack",2,4,420,
+  "o:rice=2 cups;o:nori=4 sheets;p:eggs=3 whole;p:ham=4 slices;v:carrot=1 whole;v:spinach=6 oz;v:yellow pickled radish=4 pieces;s:sesame oil=2 tbsp;s:sesame seeds=1 tbsp;s:salt=1 tsp;s:oil=1 tbsp",
+  "25=Cook the rice and, while warm, season it with 1 tbsp sesame oil, the sesame seeds and 1/2 tsp salt.|3=Blanch the spinach, squeeze dry and season with a pinch of salt and a little sesame oil.|8=Julienne the carrot and stir-fry briefly; beat the eggs with salt, fry a thick omelette and cut it into strips; cut the ham into strips.|10=Lay a nori sheet shiny side down, spread a thin layer of rice over two-thirds of it, line up the fillings and roll up tightly.|4=Brush the rolls with the remaining sesame oil and slice with a wet knife.",
+  "煮好白飯，趁熱拌入1大匙香油、芝麻和1/2小匙鹽。|菠菜汆燙後擠乾，加一撮鹽和少許香油拌勻。|紅蘿蔔切絲略炒；雞蛋加鹽打散煎成厚蛋皮後切條；火腿切條。|海苔亮面朝下，在三分之二的面積鋪上薄薄一層飯，排上餡料後捲緊。|飯捲表面刷上剩下的香油，用沾濕的刀切片。",
+  "김밥");
+W("Aloo Gobi","印度馬鈴薯花椰菜","Indian","healthy comfort",1,4,190,
+  "v:cauliflower=1 heads;v:potato=2 whole;v:onion=1 whole;v:tomato=2 whole;v:ginger=1 in;v:garlic=3 cloves;v:cilantro=1 handful;s:cumin=1 tsp;s:turmeric=1/2 tsp;s:garam masala=1 tsp;s:chili powder=1/2 tsp;s:salt=1 tsp;s:oil=3 tbsp",
+  "5=Cut the cauliflower into florets and the potatoes into small cubes.|5=Heat the oil, add the cumin seeds until they sizzle, then fry the chopped onion until golden.|3=Add the grated ginger, garlic, turmeric and chili powder and fry for a minute, then add the chopped tomatoes.|20=Add the potatoes, cauliflower and salt with a splash of water, cover and cook on low, stirring now and then, until tender.|2=Sprinkle with garam masala and chopped cilantro.",
+  "花椰菜切小朵，馬鈴薯切小丁。|熱油放入孜然，爆香後加入洋蔥丁炒到金黃。|加入薑泥、蒜泥、薑黃粉和辣椒粉炒1分鐘，再加入番茄丁。|加入馬鈴薯、花椰菜、鹽和少許水，蓋鍋小火燜煮，偶爾翻拌，煮到軟。|撒上葛拉姆馬薩拉和香菜末即可。",
+  "aloo gobi");
+W("Green Bean Casserole","美式焗烤四季豆","American","festive comfort",1,6,210,
+  "v:green beans=1.5 lb;v:mushrooms=8 oz;v:garlic=2 cloves;o:butter=2 tbsp;o:flour=2 tbsp;o:milk=1 cup;o:crispy fried onions=1 1/2 cups;s:chicken broth=1/2 cup;s:salt=1 tsp;s:black pepper=1/2 tsp",
+  "6=Preheat the oven to 375°F; trim the green beans into 2-inch pieces and blanch them for 4 minutes, then plunge into cold water and drain.|6=Melt the butter and cook the sliced mushrooms and minced garlic until the mushrooms brown.|5=Sprinkle in the flour, stir 1 minute, then whisk in the milk and broth and simmer until thick; season with salt and pepper.|3=Fold in the green beans and half the fried onions and spread in a baking dish.|25=Bake until bubbling, then top with the remaining fried onions and bake 5 minutes more until golden.",
+  "烤箱預熱至190°C；四季豆切約5公分段，汆燙4分鐘後泡冷水瀝乾。|奶油融化，炒蘑菇片和蒜末到蘑菇上色。|撒入麵粉拌炒1分鐘，再拌入牛奶和高湯，煮到濃稠，以鹽和胡椒調味。|拌入四季豆和一半的酥炸洋蔥，鋪入烤盤。|烤到冒泡，再撒上剩下的酥炸洋蔥，續烤5分鐘到金黃。",
+  "green bean casserole");
+W("Classic Herb Bread Stuffing","美式香草麵包填料","American","festive comfort",1,8,280,
+  "o:bread=1 lb;v:onion=1 whole;v:celery=3 stalks;o:butter=1/2 cup;p:eggs=2 whole;s:chicken broth=2 cups;v:sage=1 tbsp;s:thyme=1 tsp;s:rosemary=1/2 tsp;s:salt=1 tsp;s:black pepper=1/2 tsp",
+  "20=Cut the bread into 1-inch cubes and toast them in a 300°F oven until dry.|8=Melt the butter and cook the diced onion and celery until soft.|3=Stir in the chopped sage, thyme, rosemary, salt and pepper.|3=Raise the oven to 375°F; toss the bread with the vegetables, then with the broth whisked with the eggs until evenly moist.|40=Spread in a buttered baking dish, cover with foil and bake 25 minutes, then uncover and bake until crisp and golden on top.",
+  "麵包切約2.5公分方塊，放入150°C烤箱烤乾。|奶油融化，炒洋蔥丁和西洋芹丁到軟。|拌入切碎的鼠尾草、百里香、迷迭香、鹽和胡椒。|烤箱調高至190°C；麵包丁先和蔬菜拌勻，再拌入與蛋打勻的高湯，讓麵包均勻濕潤。|鋪入抹奶油的烤盤，蓋鋁箔烤25分鐘，再掀開烤到表面酥脆金黃。",
+  "bread stuffing");
+W("Pecan Pie","美式胡桃派","American","dessert festive",2,8,500,
+  "o:pie crust=1 whole;o:pecans=1 1/2 cups;p:eggs=3 whole;s:corn syrup=1 cup;s:brown sugar=1/2 cup;o:butter=3 tbsp;s:vanilla=1 tsp;s:salt=1/4 tsp",
+  "10=Preheat the oven to 350°F and fit the pie crust into a 9-inch pie dish, crimping the edge.|5=Whisk the eggs, corn syrup, brown sugar, melted butter, vanilla and salt until smooth.|2=Scatter the pecans in the crust and pour the filling over them.|55=Bake until the filling is set at the edges and only slightly wobbly in the centre, covering the crust edge with foil if it browns too fast.|120=Cool on a rack until the filling is fully set before slicing.",
+  "烤箱預熱至180°C，派皮鋪入23公分派盤，捏出花邊。|雞蛋、玉米糖漿、黑糖、融化奶油、香草和鹽攪拌均勻。|胡桃撒在派皮中，倒入內餡。|烘烤到內餡邊緣凝固、中心只微微晃動，派皮邊緣上色太快可蓋鋁箔。|放在網架上冷卻到內餡完全凝固再切。",
+  "pecan pie");
