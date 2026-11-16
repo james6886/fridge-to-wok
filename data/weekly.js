@@ -310,3 +310,105 @@ W("Pecan Pie","美式胡桃派","American","dessert festive",2,8,500,
   "10=Preheat the oven to 350°F and fit the pie crust into a 9-inch pie dish, crimping the edge.|5=Whisk the eggs, corn syrup, brown sugar, melted butter, vanilla and salt until smooth.|2=Scatter the pecans in the crust and pour the filling over them.|55=Bake until the filling is set at the edges and only slightly wobbly in the centre, covering the crust edge with foil if it browns too fast.|120=Cool on a rack until the filling is fully set before slicing.",
   "烤箱預熱至180°C，派皮鋪入23公分派盤，捏出花邊。|雞蛋、玉米糖漿、黑糖、融化奶油、香草和鹽攪拌均勻。|胡桃撒在派皮中，倒入內餡。|烘烤到內餡邊緣凝固、中心只微微晃動，派皮邊緣上色太快可蓋鋁箔。|放在網架上冷卻到內餡完全凝固再切。",
   "pecan pie");
+// Week of 2026-11-16
+ZING({"pickled cucumber":"醬瓜","chayote shoots":"龍鬚菜（佛手瓜苗）","chive flowers":"韭菜花","cranberries":"蔓越莓","brussels sprouts":"球芽甘藍","pandan leaves":"香蘭葉（班蘭葉）"});
+W("Taiwanese Savory Pork Congee","台式鹹粥","Taiwanese","breakfast rice comfort",1,4,300,
+  "o:rice=3 cups;p:ground pork=6 oz;v:shiitake=4 whole;o:dried shrimp=2 tbsp;v:shallot=4 whole;v:celery=2 stalks;v:cabbage=2 cups;s:chicken broth=6 cups;s:soy sauce=1 tbsp;s:white pepper=1/2 tsp;s:salt=1 tsp;s:oil=2 tbsp",
+  "20=Soak the dried shiitake and dried shrimp in warm water until soft, then slice the mushrooms; thinly slice the shallots, dice the celery and shred the cabbage.|6=Fry the shallots in the oil until golden and crisp, then lift out half for garnish.|5=Add the shiitake, dried shrimp and ground pork to the pot and stir-fry until the pork is cooked, seasoning with the soy sauce.|10=Pour in the chicken broth and mushroom soaking water, add the cabbage and simmer until the cabbage is soft.|8=Stir in the cooked rice and simmer until the grains swell but still hold their shape; season with salt and white pepper.|1=Serve topped with the diced celery and the reserved fried shallots.",
+  "乾香菇和蝦米用溫水泡軟，香菇切片；紅蔥頭切薄片、芹菜切末、高麗菜切絲。|紅蔥頭用油炸到金黃酥脆，撈出一半當配料。|鍋中加入香菇、蝦米和絞肉炒到肉熟，以醬油調味。|倒入雞高湯和香菇水，加入高麗菜煮到軟。|加入白飯煮到米粒膨脹但仍保有形狀，以鹽和白胡椒調味。|盛碗後撒上芹菜末和預留的油蔥酥即可。",
+  "台式鹹粥");
+W("Taiwanese Salt Water Chicken","鹽水雞","Taiwanese","street healthy protein",1,4,280,
+  "p:chicken thigh=1.5 lb;v:broccoli=1 heads;v:corn=1 whole;v:ginger=1 in;v:scallion=3 stalks;v:garlic=3 cloves;s:rice wine=2 tbsp;s:salt=1 tbsp;s:white pepper=1/2 tsp;s:sesame oil=1 tbsp",
+  "15=Rub the chicken thighs with 2 tsp salt and leave them to cure briefly.|5=Bring a pot of water to a boil with the sliced ginger, scallion and rice wine, then add the chicken.|20=Cover, turn off the heat and let the chicken poach in the hot water until cooked through.|5=Lift out the chicken and plunge it into ice water; blanch the broccoli florets and corn pieces in the same pot.|5=Cut the chicken into bite-size pieces and toss with the vegetables, minced garlic, scallion, the remaining salt, white pepper and sesame oil.",
+  "雞腿抹上2小匙鹽，稍微醃一下。|一鍋水加入薑片、蔥段和米酒煮滾後放入雞腿。|加蓋關火，讓雞腿在熱水中燜到熟透。|雞腿撈出泡冰水；同一鍋水汆燙花椰菜和玉米段。|雞肉切塊，與蔬菜、蒜末、蔥花、剩下的鹽、白胡椒和香油拌勻。",
+  "鹽水雞");
+W("Taiwanese Peanut Soup","花生湯","Taiwanese","dessert soup comfort",1,4,400,
+  "o:peanuts=1 1/2 cups;s:rock sugar=1/2 cup",
+  "480=Soak the peeled raw peanuts in plenty of water overnight.|5=Drain and rinse the peanuts and put them in a pot with 8 cups of fresh water.|120=Bring to a boil, then simmer covered on the lowest heat until the peanuts are soft enough to crush with your tongue, topping up with hot water if needed.|10=Stir in the rock sugar and simmer until it dissolves; serve hot.",
+  "去膜生花生泡水一夜。|花生瀝乾洗淨，放入鍋中加8杯清水。|煮滾後加蓋轉最小火燉煮，煮到花生用舌頭就能壓碎，水不夠時補熱水。|加入冰糖煮到溶化，趁熱享用。",
+  "花生湯");
+W("Steamed Minced Pork with Pickled Cucumber","瓜仔肉","Taiwanese","kids rice protein comfort",1,4,340,
+  "p:ground pork=1 lb;v:pickled cucumber=1 can;v:garlic=3 cloves;s:soy sauce=1 tbsp;s:white pepper=1/4 tsp;s:cornstarch=1 tbsp;s:sesame oil=1 tsp",
+  "3=Finely chop the pickled cucumbers and garlic, keeping 2 tbsp of the pickling liquid.|5=Mix the ground pork with the cucumber, garlic, pickling liquid, soy sauce, white pepper, cornstarch and 3 tbsp water, stirring in one direction until sticky.|2=Press the mixture into a shallow heatproof bowl.|25=Steam over boiling water, or in a rice cooker with 1 cup water in the outer pot, until cooked through and juicy.|1=Drizzle with sesame oil and spoon the pork and juices over rice.",
+  "醬瓜和蒜切碎，保留2大匙醬汁。|絞肉加入醬瓜、蒜末、醬汁、醬油、白胡椒、太白粉和3大匙水，朝同一方向攪拌到出筋。|把肉餡壓平鋪在淺的耐熱碗中。|放入蒸鍋，或電鍋外鍋加1杯水，蒸到熟透多汁。|淋上香油，連同湯汁舀在白飯上。",
+  "瓜仔肉");
+W("Daikon and Pork Rib Soup","蘿蔔排骨湯","Taiwanese","soup healthy comfort",1,4,300,
+  "p:pork ribs=1.5 lb;v:daikon=1.5 lb;v:ginger=1 in;v:cilantro=1 handful;s:rice wine=1 tbsp;s:salt=1 1/2 tsp;s:white pepper=1 pinch",
+  "8=Blanch the pork ribs in boiling water for 5 minutes, then rinse off the scum.|5=Peel the daikon and cut it into thick chunks; slice the ginger.|5=Put the ribs, ginger, rice wine and 8 cups water in a pot and bring to a boil.|40=Simmer covered on low for 40 minutes.|25=Add the daikon and simmer until it turns translucent and tender.|2=Season with salt and white pepper and top with chopped cilantro.",
+  "排骨用滾水汆燙5分鐘，沖淨浮沫。|白蘿蔔去皮切大塊；薑切片。|排骨、薑片、米酒和8杯水放入鍋中煮滾。|加蓋小火燉40分鐘。|加入白蘿蔔，煮到呈半透明且軟嫩。|以鹽和白胡椒調味，撒上香菜末。",
+  "蘿蔔排骨湯");
+W("Taro Rice Noodle Soup","芋頭米粉湯","Taiwanese","noodle soup comfort",2,4,420,
+  "v:taro=1 lb;o:rice vermicelli=6 oz;p:pork belly=6 oz;v:shiitake=4 whole;o:dried shrimp=2 tbsp;v:shallot=4 whole;v:celery=2 stalks;s:chicken broth=6 cups;s:soy sauce=1 tbsp;s:white pepper=1/2 tsp;s:salt=1 tsp;s:oil=3 tbsp",
+  "15=Soak the shiitake and dried shrimp until soft; soak the rice vermicelli in cold water; peel the taro and cut it into chunks.|8=Fry the taro chunks in 2 tbsp oil until the edges are golden, then set aside.|6=In the remaining oil, fry the sliced shallots until golden, then add the shredded pork belly, sliced shiitake and dried shrimp and stir-fry until fragrant, seasoning with soy sauce.|20=Add the chicken broth and taro and simmer until the taro is soft and starts to thicken the soup.|5=Add the drained vermicelli and cook until soft; season with salt and white pepper.|1=Serve topped with diced celery.",
+  "香菇和蝦米泡軟；米粉泡冷水；芋頭去皮切塊。|芋頭用2大匙油煎到邊緣金黃後盛出。|用剩下的油爆香紅蔥頭片到金黃，加入五花肉絲、香菇絲和蝦米炒香，以醬油調味。|加入雞高湯和芋頭，煮到芋頭鬆軟、湯汁開始變濃稠。|放入瀝乾的米粉煮軟，以鹽和白胡椒調味。|盛碗後撒上芹菜末。",
+  "芋頭米粉");
+W("Garlic Stir-Fried Chayote Shoots","蒜炒龍鬚菜","Taiwanese","healthy",1,2,90,
+  "v:chayote shoots=12 oz;v:garlic=4 cloves;s:rice wine=1 tbsp;s:salt=1/2 tsp;s:oil=1 tbsp",
+  "5=Snap off and discard the tough lower stems and tendrils, and cut the tender shoots into finger-length pieces.|1=Fry the sliced garlic in the oil until fragrant.|3=Add the chayote shoots and stir-fry on high heat, splashing in the rice wine and 2 tbsp water.|1=Season with salt as soon as the leaves wilt and serve right away.",
+  "摘除老梗和捲鬚，嫩葉切成約手指長的段。|蒜片用油爆香。|放入龍鬚菜大火快炒，淋入米酒和2大匙水。|葉子一軟就加鹽調味，立刻上桌。",
+  "炒龍鬚菜");
+W("Chive Flowers with Dried Tofu","韭菜花炒豆干","Taiwanese","protein",1,3,180,
+  "v:chive flowers=8 oz;p:dried tofu=4 pieces;v:chili pepper=1 whole;v:garlic=2 cloves;s:soy sauce=1 tbsp;s:sugar=1/2 tsp;s:salt=1/4 tsp;s:oil=2 tbsp",
+  "4=Cut the chive flowers into 1-inch lengths, discarding the tough ends; slice the dried tofu into thin strips and the chili and garlic finely.|4=Fry the tofu strips in the oil until lightly browned.|1=Add the garlic and chili and stir until fragrant.|3=Add the chive flowers, soy sauce, sugar and salt and stir-fry on high heat until bright green and just tender.",
+  "韭菜花切約2.5公分段，去掉老梗；豆干切細條，辣椒和蒜切末。|豆干用油煎到微微上色。|加入蒜末和辣椒炒香。|放入韭菜花、醬油、糖和鹽，大火炒到翠綠剛熟即可。",
+  "韭菜花炒豆干");
+W("Fish-Fragrant Shredded Pork","魚香肉絲","Sichuan","spicy rice protein",2,3,330,
+  "p:pork tenderloin=10 oz;v:wood ear=1 handful;v:carrot=1 whole;v:bamboo shoots=4 oz;v:garlic=4 cloves;v:ginger=1 in;v:scallion=2 stalks;s:doubanjiang=1 1/2 tbsp;s:soy sauce=1 tbsp;s:black vinegar=1 1/2 tbsp;s:sugar=1 tbsp;s:rice wine=1 tbsp;s:cornstarch=2 tsp;s:oil=3 tbsp",
+  "15=Shred the pork and marinate with the rice wine, a little soy sauce and 1 tsp cornstarch; soak the wood ear until soft.|5=Julienne the wood ear, carrot and bamboo shoots; mince the garlic, ginger and scallion.|2=Mix the sauce: soy sauce, black vinegar, sugar, remaining cornstarch and 3 tbsp water.|2=Stir-fry the pork in hot oil until it separates and turns pale, then push it aside.|2=Fry the doubanjiang, garlic and ginger until the oil turns red, then add the vegetables and stir-fry.|1=Pour in the sauce, toss until glossy and thick, and finish with the scallion.",
+  "豬肉切絲，用米酒、少許醬油和1小匙太白粉醃漬；木耳泡軟。|木耳、紅蘿蔔和筍切絲；蒜、薑、蔥切末。|調醬汁：醬油、烏醋、糖、剩下的太白粉和3大匙水。|熱油下肉絲炒散到變白，推到一旁。|下豆瓣醬、蒜末和薑末炒出紅油，再加入蔬菜拌炒。|倒入醬汁拌炒到發亮濃稠，撒上蔥花即可。",
+  "魚香肉絲");
+W("Soy Sauce Chow Mein","豉油皇炒麵","Cantonese","noodle comfort",1,2,520,
+  "o:egg noodles=8 oz;v:bean sprouts=4 oz;v:onion=1/2 whole;v:scallion=4 stalks;s:soy sauce=2 tbsp;s:dark soy sauce=1 tbsp;s:sugar=1 tsp;s:sesame oil=1 tsp;s:oil=3 tbsp",
+  "3=Blanch the thin egg noodles for 1 minute, rinse under cold water and drain well.|2=Mix the soy sauce, dark soy sauce, sugar and 1 tbsp water.|5=Fry the noodles in 2 tbsp very hot oil, untouched, until crisp underneath, then flip and crisp the other side.|2=Push the noodles aside, add the remaining oil and stir-fry the sliced onion and bean sprouts briefly.|2=Pour the sauce over the noodles, add the scallion lengths and toss with chopsticks until evenly coloured; finish with sesame oil.",
+  "細蛋麵汆燙1分鐘，沖冷水後瀝乾。|醬油、老抽、糖和1大匙水調勻。|鍋中燒熱2大匙油，下麵條不翻動煎到底部酥脆，再翻面煎另一面。|麵推到一邊，加入剩下的油，快炒洋蔥絲和豆芽。|淋上醬汁，加入蔥段，用筷子翻拌到上色均勻，最後淋香油。",
+  "豉油皇炒麵");
+W("Shanghai Pork and Greens Wontons","上海菜肉大餛飩","Shanghainese","dumpling soup comfort",2,4,380,
+  "o:wonton wrappers=40 pieces;p:ground pork=12 oz;v:bok choy=1 lb;v:ginger=1 in;v:scallion=2 stalks;p:eggs=1 whole;o:nori=1 sheets;s:soy sauce=1 tbsp;s:sesame oil=1 tbsp;s:salt=1 tsp;s:white pepper=1/4 tsp;s:chicken broth=6 cups",
+  "5=Blanch the bok choy for 1 minute, cool in cold water, squeeze very dry and chop finely.|8=Mix the pork with the grated ginger, soy sauce, salt, white pepper and 3 tbsp water until sticky, then stir in the greens and sesame oil.|25=Place a spoonful of filling on each wrapper, fold in half and bring the corners together to make plump wontons.|3=Beat the egg and fry a thin omelette, then cut it into strips; tear the nori into pieces.|6=Boil the wontons until they float and the filling is cooked, about 5 minutes.|2=Ladle into bowls of hot broth and top with the egg strips, nori and chopped scallion.",
+  "青江菜汆燙1分鐘，泡冷水後擠乾切碎。|絞肉加入薑泥、醬油、鹽、白胡椒和3大匙水攪拌到黏稠，再拌入青菜和香油。|每張餛飩皮放一匙餡，對折後兩角捏合，包成飽滿的大餛飩。|雞蛋打散煎成薄蛋皮後切絲；海苔撕成小片。|餛飩下滾水煮到浮起、內餡熟透，約5分鐘。|盛入熱高湯中，放上蛋皮絲、海苔和蔥花。",
+  "菜肉餛飩");
+W("Tomato and Egg Dough Drop Soup","番茄雞蛋疙瘩湯","Northern Chinese","soup kids comfort onepot",1,3,260,
+  "o:flour=1 cup;v:tomato=3 whole;p:eggs=2 whole;v:bok choy=2 heads;v:scallion=2 stalks;s:salt=1 tsp;s:white pepper=1 pinch;s:sesame oil=1 tsp;s:oil=1 tbsp",
+  "4=Drizzle water into the flour a little at a time while stirring with chopsticks until it forms small, pea-sized clumps.|5=Fry the scallion whites and diced tomatoes in the oil until the tomatoes break down into a sauce.|4=Add 5 cups water and bring to a boil.|4=Sprinkle in the dough clumps while stirring so they don't stick, and simmer until they turn translucent.|2=Add the chopped bok choy, then drizzle in the beaten eggs to form ribbons.|1=Season with salt, white pepper and sesame oil and scatter over the scallion greens.",
+  "麵粉一邊用筷子攪拌一邊慢慢滴入水，攪成豌豆大小的小麵疙瘩。|用油炒蔥白和番茄丁，炒到番茄出汁成醬。|加入5杯水煮滾。|一邊攪拌一邊撒入麵疙瘩以免黏在一起，煮到呈半透明。|加入切碎的青江菜，再淋入蛋液形成蛋花。|以鹽、白胡椒和香油調味，撒上蔥綠。",
+  "疙瘩湯");
+W("Yunnan Grandma's Potatoes","老奶洋芋","Yunnan","comfort spicy",1,4,260,
+  "v:potato=1.5 lb;v:pickled mustard greens=3 oz;v:scallion=3 stalks;v:garlic=3 cloves;s:chili flakes=1 tbsp;s:sichuan peppercorn=1/2 tsp;s:salt=1 tsp;s:oil=3 tbsp",
+  "20=Peel and boil the potatoes until completely tender, then drain.|3=Mash the potatoes roughly with a fork, leaving some small chunks; finely chop the pickled mustard greens, garlic and scallion.|2=Heat the oil and fry the Sichuan peppercorns, then remove them and fry the garlic and chili flakes briefly.|8=Add the potatoes and pickled greens and stir-fry, pressing them against the pan, until heated through and lightly crusted.|1=Season with salt and fold in the scallion.",
+  "馬鈴薯去皮煮到完全軟透後瀝乾。|用叉子把馬鈴薯壓成粗泥，保留一些小塊；酸菜、蒜和蔥切碎。|熱油爆香花椒後撈出，再下蒜末和辣椒粉略炒。|加入馬鈴薯泥和酸菜拌炒，一邊壓一邊炒到熱透、微微起鍋巴。|加鹽調味，拌入蔥花即可。",
+  "老奶洋芋");
+W("Fujian Fried Rice","福建炒飯","Fujian","rice seafood protein",2,4,520,
+  "o:rice=4 cups;p:eggs=3 whole;p:shrimp=6 oz;p:chicken breast=6 oz;v:shiitake=4 whole;v:carrot=1/2 whole;v:bok choy=2 heads;v:scallion=2 stalks;s:chicken broth=1 1/2 cups;s:oyster sauce=1 tbsp;s:soy sauce=1 tbsp;s:cornstarch=1 1/2 tbsp;s:salt=1/2 tsp;s:white pepper=1/4 tsp;s:oil=3 tbsp",
+  "15=Soak and slice the shiitake; dice the chicken, peel the shrimp, slice the carrot and chop the bok choy.|6=Scramble 2 eggs in 1 tbsp oil, add the day-old rice and scallion and fry until the grains are hot and separate; season with salt and divide among plates.|4=Stir-fry the chicken and shrimp in the remaining oil until just cooked, then add the shiitake and carrot.|4=Add the broth, oyster sauce, soy sauce and white pepper and bring to a boil, then add the bok choy.|2=Thicken with the cornstarch mixed with 3 tbsp water, then drizzle in the last beaten egg.|1=Ladle the sauce generously over the fried rice.",
+  "香菇泡軟切片；雞肉切丁、蝦子剝殼、紅蘿蔔切片、青江菜切段。|用1大匙油炒散2顆蛋，加入隔夜飯和蔥花炒到粒粒分明、熱透，加鹽調味後分盛盤中。|用剩下的油炒雞肉和蝦仁到剛熟，加入香菇和紅蘿蔔。|加入高湯、蠔油、醬油和白胡椒煮滾，再放入青江菜。|太白粉加3大匙水調勻勾芡，再淋入剩下的蛋液。|把醬汁大量淋在炒飯上。",
+  "福建炒飯");
+W("Yosenabe (Japanese Hot Pot)","日式寄鍋","Japanese","healthy soup seafood onepot",1,4,300,
+  "o:kombu=1 pieces;s:dashi=6 cups;p:fish fillet=8 oz;p:shrimp=8 oz;p:chicken thigh=8 oz;p:tofu=1 block;v:napa cabbage=1/2 heads;v:shiitake=6 whole;v:enoki=1 pack;v:carrot=1 whole;v:scallion=2 stalks;s:soy sauce=3 tbsp;s:mirin=2 tbsp;s:salt=1/2 tsp",
+  "30=Soak the kombu in the dashi, then bring slowly to a simmer and remove the kombu just before it boils.|8=Cut the napa cabbage, tofu, chicken and fish into bite-size pieces; slice the carrot and trim the mushrooms.|2=Season the broth with soy sauce, mirin and salt.|8=Add the chicken, carrot and thick cabbage stems first and simmer until the chicken is nearly cooked.|6=Arrange the fish, shrimp, tofu, mushrooms and cabbage leaves in the pot and simmer until everything is cooked.|1=Scatter over sliced scallion and serve at the table, ladling broth into each bowl.",
+  "昆布浸泡在日式高湯中，慢慢加熱到將滾前取出昆布。|大白菜、豆腐、雞肉和魚肉切成一口大小；紅蘿蔔切片，菇類修整。|湯底以醬油、味醂和鹽調味。|先放入雞肉、紅蘿蔔和較厚的白菜梗，煮到雞肉快熟。|再依序排入魚片、蝦、豆腐、菇類和白菜葉，煮到全部熟透。|撒上蔥花，整鍋上桌，每人舀湯享用。",
+  "寄せ鍋");
+W("Korean Spicy Stir-Fried Pork (Jeyuk Bokkeum)","韓式辣炒豬肉","Korean","spicy rice protein",1,3,450,
+  "p:pork shoulder=1 lb;v:onion=1 whole;v:scallion=3 stalks;v:carrot=1/2 whole;v:garlic=4 cloves;v:ginger=1 in;s:gochujang=3 tbsp;s:chili flakes=1 tbsp;s:soy sauce=2 tbsp;s:sugar=1 tbsp;s:sesame oil=1 tbsp;s:sesame seeds=1 tsp;s:oil=1 tbsp",
+  "5=Slice the pork shoulder very thinly; slice the onion and carrot and cut the scallions into lengths.|20=Mix the gochujang, chili flakes, soy sauce, sugar, minced garlic, grated ginger and sesame oil, and marinate the pork in it.|8=Stir-fry the pork in the oil on high heat until it is cooked and starting to caramelise.|4=Add the onion and carrot and stir-fry until just tender, then add the scallions.|1=Sprinkle with sesame seeds and serve with rice and lettuce leaves.",
+  "梅花肉切薄片；洋蔥和紅蘿蔔切絲，蔥切段。|韓式辣醬、辣椒粉、醬油、糖、蒜末、薑泥和香油拌勻，放入豬肉醃漬。|大火用油炒豬肉，炒到熟透並開始焦糖化。|加入洋蔥和紅蘿蔔炒到剛軟，再加入蔥段。|撒上芝麻，搭配白飯和生菜享用。",
+  "제육볶음");
+W("Kaya Toast with Soft-Boiled Eggs","咖椰吐司配半熟蛋","Singaporean","breakfast kids",2,2,450,
+  "o:coconut milk=1 cup;p:eggs=7 whole;s:sugar=1/2 cup;v:pandan leaves=4 pieces;o:bread=4 slices;o:butter=2 tbsp;s:soy sauce=2 tsp;s:white pepper=1 pinch",
+  "3=Whisk 3 eggs with the sugar until dissolved, then whisk in the coconut milk and strain into a heatproof bowl; add the knotted pandan leaves.|25=Cook the mixture over a pot of simmering water, stirring constantly, until it thickens into a smooth custard jam; remove the pandan and cool.|7=Lower the remaining 4 eggs into boiling water, turn off the heat, cover and leave for 7 minutes, then crack them into small bowls.|4=Toast the bread until crisp and golden.|2=Spread the toast thickly with kaya, add thin slices of cold butter and sandwich together; season the eggs with soy sauce and white pepper and dip the toast in them.",
+  "3顆蛋加糖攪拌到糖溶化，拌入椰奶後過篩到耐熱碗中，放入打結的香蘭葉。|隔水加熱，不停攪拌到濃稠成滑順的咖椰醬，取出香蘭葉後放涼。|另外4顆蛋放入滾水中，關火加蓋燜7分鐘，再敲入小碗中。|吐司烤到金黃酥脆。|吐司厚塗咖椰醬，放上冷奶油薄片後夾起；半熟蛋加醬油和白胡椒，吐司沾蛋享用。",
+  "kaya toast");
+W("Homemade Cranberry Sauce","自製蔓越莓醬","American","festive",1,8,110,
+  "v:cranberries=12 oz;v:orange=1 whole;s:sugar=3/4 cup;s:cinnamon stick=1 pieces;s:salt=1 pinch",
+  "3=Rinse the cranberries and pick out any soft ones; zest the orange and squeeze 1/2 cup juice.|4=Bring the sugar, orange juice and 1/4 cup water to a boil with the cinnamon stick until the sugar dissolves.|10=Add the cranberries and simmer, stirring, until most of the berries have burst and the sauce thickens.|2=Stir in the orange zest and salt and remove the cinnamon stick.|60=Cool to room temperature, then chill; it sets further as it cools.",
+  "蔓越莓洗淨，挑掉軟爛的；柳橙刨皮屑，擠出1/2杯果汁。|糖、柳橙汁、1/4杯水和肉桂棒一起煮滾到糖溶化。|加入蔓越莓，邊攪拌邊小火煮到大部分果實爆開、醬汁變稠。|拌入柳橙皮屑和鹽，取出肉桂棒。|放涼到室溫後冷藏，冷卻後會更加凝固。",
+  "cranberry sauce");
+W("Roasted Brussels Sprouts with Bacon","培根烤球芽甘藍","American","festive healthy",1,4,190,
+  "v:brussels sprouts=1.5 lb;p:bacon=4 slices;v:garlic=3 cloves;s:olive oil=1 tbsp;s:balsamic vinegar=1 tbsp;s:salt=1/2 tsp;s:black pepper=1/4 tsp",
+  "10=Preheat the oven to 425°F; trim the Brussels sprouts and halve them.|3=Cut the bacon into small pieces and toss with the sprouts, olive oil, salt and pepper on a baking sheet, cut sides down.|20=Roast until the sprouts are deeply browned and the bacon is crisp, tossing once halfway.|5=Add the sliced garlic for the last 5 minutes of roasting.|1=Drizzle with the balsamic vinegar and serve hot.",
+  "烤箱預熱至220°C；球芽甘藍修掉底部後對半切。|培根切小片，和球芽甘藍、橄欖油、鹽和胡椒在烤盤上拌勻，切面朝下。|烤到球芽甘藍深度上色、培根酥脆，中途翻拌一次。|最後5分鐘加入蒜片一起烤。|淋上巴薩米克醋，趁熱上桌。",
+  "roasted brussels sprouts");
+W("Classic Apple Pie","經典蘋果派","American","dessert festive",2,8,410,
+  "o:pie crust=2 whole;v:apple=6 whole;v:lemon=1 whole;s:sugar=2/3 cup;o:flour=3 tbsp;s:cinnamon=1 tsp;s:nutmeg=1/4 tsp;s:salt=1 pinch;o:butter=2 tbsp;p:eggs=1 whole",
+  "10=Preheat the oven to 425°F and line a 9-inch pie dish with one crust.|10=Peel, core and thinly slice the apples, then toss with the lemon juice, sugar, flour, cinnamon, nutmeg and salt.|5=Pile the apples into the crust, dot with the butter, cover with the second crust, crimp the edges and cut a few steam vents.|2=Brush the top with the beaten egg.|55=Bake 20 minutes, then lower to 375°F and bake until the crust is golden and the juices bubble through the vents.|120=Cool on a rack so the filling can set before slicing.",
+  "烤箱預熱至220°C，一張派皮鋪入23公分派盤。|蘋果去皮去核切薄片，與檸檬汁、糖、麵粉、肉桂粉、肉豆蔻和鹽拌勻。|蘋果堆入派皮中，放上小塊奶油，蓋上第二張派皮，捏緊邊緣並劃幾道透氣口。|表面刷上蛋液。|先烤20分鐘，再降至190°C烤到派皮金黃、透氣口冒出果汁泡泡。|放在網架上冷卻，讓內餡凝固後再切。",
+  "apple pie");
