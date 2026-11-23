@@ -412,3 +412,105 @@ W("Classic Apple Pie","經典蘋果派","American","dessert festive",2,8,410,
   "10=Preheat the oven to 425°F and line a 9-inch pie dish with one crust.|10=Peel, core and thinly slice the apples, then toss with the lemon juice, sugar, flour, cinnamon, nutmeg and salt.|5=Pile the apples into the crust, dot with the butter, cover with the second crust, crimp the edges and cut a few steam vents.|2=Brush the top with the beaten egg.|55=Bake 20 minutes, then lower to 375°F and bake until the crust is golden and the juices bubble through the vents.|120=Cool on a rack so the filling can set before slicing.",
   "烤箱預熱至220°C，一張派皮鋪入23公分派盤。|蘋果去皮去核切薄片，與檸檬汁、糖、麵粉、肉桂粉、肉豆蔻和鹽拌勻。|蘋果堆入派皮中，放上小塊奶油，蓋上第二張派皮，捏緊邊緣並劃幾道透氣口。|表面刷上蛋液。|先烤20分鐘，再降至190°C烤到派皮金黃、透氣口冒出果汁泡泡。|放在網架上冷卻，讓內餡凝固後再切。",
   "apple pie");
+// Week of 2026-11-23
+ZING({"crown daisy":"茼蒿","red yeast rice paste":"紅糟醬","pickled long beans":"酸豆角","creamed corn":"玉米醬","salted pork":"鹹肉","burdock":"牛蒡","coconut water":"椰子水","paneer":"印度起司（Paneer）"});
+W("Taiwanese Rice Wine Chicken Soup","燒酒雞","Taiwanese","soup comfort protein onepot",1,4,420,
+  "p:chicken drumsticks=2 lb;s:rice wine bottle=1 whole;s:sesame oil=2 tbsp;v:ginger=2 in;s:angelica root=2 slices;s:chuanxiong=3 slices;s:astragalus=5 slices;s:goji berries=1 tbsp;s:red dates=8 whole;s:salt=1/2 tsp",
+  "8=Chop the drumsticks into chunks, blanch them in boiling water for 3 minutes, then rinse and drain.|3=Thinly slice the ginger and fry it slowly in the sesame oil until the edges curl and turn golden.|4=Add the chicken and stir-fry until the skin is lightly browned.|35=Pour in the rice wine and 2 cups water, add the angelica, chuanxiong, astragalus and red dates, bring to a boil and simmer covered until the chicken is tender.|3=Add the goji berries and season with salt to taste.",
+  "雞腿剁塊，放入滾水汆燙3分鐘後洗淨瀝乾。|薑切薄片，用麻油小火慢煸到邊緣捲起、微微金黃。|放入雞肉拌炒到表皮微焦。|倒入整瓶米酒和2杯水，加入當歸、川芎、黃耆和紅棗，煮滾後加蓋小火燉到雞肉軟嫩。|加入枸杞，以鹽調味即可。",
+  "燒酒雞");
+W("Savory Tangyuan Soup","鹹湯圓","Taiwanese","soup festive comfort",2,4,380,
+  "o:glutinous rice balls=2 cups;p:pork shoulder=6 oz;p:dried shrimp=2 tbsp;v:shiitake=5 whole;v:shallot=4 whole;v:crown daisy=1 bunch;v:celery=1 stalks;s:chicken broth=6 cups;s:soy sauce=1 tbsp;s:white pepper=1/4 tsp;s:salt=1/2 tsp;s:oil=2 tbsp",
+  "20=Soak the shiitake and dried shrimp until soft; slice the mushrooms, cut the pork into thin strips, slice the shallots and chop the celery.|5=Fry the shallots in the oil until golden, then add the shiitake and dried shrimp and fry until fragrant.|3=Add the pork and soy sauce and stir-fry until the pork changes colour.|8=Pour in the broth and bring to a simmer; meanwhile boil the rice balls in a separate pot until they float, then drain them.|3=Add the rice balls and crown daisy to the soup and cook until the greens just wilt.|1=Season with salt and white pepper and scatter over the celery.",
+  "香菇和蝦米泡軟；香菇切絲、豬肉切細條、紅蔥頭切片、芹菜切末。|用油將紅蔥頭爆香到金黃，再放入香菇和蝦米炒香。|加入豬肉絲和醬油拌炒到肉變色。|倒入高湯煮滾；同時另起一鍋水把湯圓煮到浮起後撈出。|把湯圓和茼蒿放入湯中，煮到茼蒿剛軟。|加鹽和白胡椒調味，撒上芹菜末。",
+  "鹹湯圓");
+W("Taiwanese Castella Cake","古早味蛋糕","Taiwanese","dessert kids snack",3,10,230,
+  "p:eggs=6 whole;o:flour=1 cup;o:milk=1/2 cup;s:oil=1/2 cup;s:sugar=2/3 cup;s:vinegar=1 tsp;s:salt=1 pinch",
+  "10=Preheat the oven to 300°F, line an 8-inch square pan with parchment and separate the eggs.|5=Heat the oil until just shimmering, pour it over the sifted flour and stir smooth, then whisk in the milk, salt and egg yolks.|8=Beat the egg whites with the vinegar, adding the sugar gradually, until they hold soft, droopy peaks.|5=Fold the meringue into the yolk batter in three additions until no streaks remain, then pour into the pan and tap out large bubbles.|65=Set the pan in a larger tray of hot water and bake until the top is golden and a skewer comes out clean.|10=Unmould immediately, peel off the paper and cool on a rack before slicing.",
+  "烤箱預熱至150°C，8吋方模鋪烘焙紙，蛋黃蛋白分開。|油加熱到微微冒紋路，沖入過篩的麵粉中拌勻，再拌入牛奶、鹽和蛋黃。|蛋白加白醋打發，分次加糖，打到濕性發泡（尖端下垂）。|蛋白霜分三次與蛋黃糊翻拌均勻至無紋路，倒入模中並輕敲震出大氣泡。|烤模放入裝熱水的大烤盤中，隔水烘烤到表面金黃、竹籤插入不沾黏。|出爐立即脫模，撕去烘焙紙，放在網架上冷卻後再切。",
+  "古早味蛋糕");
+W("Taiwanese Basil Omelette","九層塔煎蛋","Taiwanese","protein comfort",1,2,220,
+  "p:eggs=4 whole;v:basil=1 handful;s:soy sauce=1 tsp;s:salt=1/4 tsp;s:white pepper=1 pinch;s:oil=2 tbsp",
+  "2=Pick the basil leaves, rinse, pat dry and roughly chop.|2=Beat the eggs with the soy sauce, salt and white pepper, then stir in the basil.|4=Heat the oil until hot, pour in the eggs and let them puff and set at the edges, then fold or flip.|2=Fry the other side until golden brown and serve with rice.",
+  "九層塔摘下葉子洗淨，拭乾後略切。|蛋加醬油、鹽和白胡椒打散，拌入九層塔。|油燒熱倒入蛋液，讓邊緣膨起凝固後對折或翻面。|另一面煎到金黃，配飯享用。",
+  "九層塔煎蛋");
+W("Century Egg Tofu","皮蛋豆腐","Taiwanese","healthy protein",1,2,190,
+  "p:silken tofu=1 block;p:century eggs=2 whole;s:pork floss=2 tbsp;v:scallion=1 stalks;v:garlic=1 cloves;s:soy paste=2 tbsp;s:sesame oil=1 tsp;s:sugar=1/2 tsp",
+  "2=Drain the chilled tofu, slide it onto a plate and pour off the water that collects.|3=Peel the century eggs, rinse and cut into small wedges; finely chop the scallion and garlic.|1=Mix the soy paste, sesame oil, sugar, garlic and 1 tbsp water into a sauce.|1=Arrange the eggs over the tofu, pour over the sauce and top with scallion and pork floss.",
+  "冰涼的嫩豆腐瀝乾倒扣在盤上，倒掉滲出的水。|皮蛋剝殼洗淨，切成小瓣；蔥和蒜切末。|醬油膏、香油、糖、蒜末和1大匙水調成醬汁。|皮蛋鋪在豆腐上，淋上醬汁，撒上蔥花和肉鬆。",
+  "皮蛋豆腐");
+W("Red Yeast Fried Pork","紅糟肉","Taiwanese","street protein snack",2,4,480,
+  "p:pork shoulder=1.5 lb;s:red yeast rice paste=3 tbsp;s:rice wine=2 tbsp;v:garlic=4 cloves;s:sugar=1 tbsp;s:soy sauce=1 tbsp;s:five-spice=1/4 tsp;s:sweet potato starch=1/2 cup;s:oil=3 cups",
+  "5=Cut the pork shoulder into thick strips about 1 inch wide and mince the garlic.|240=Mix the pork with the red yeast paste, rice wine, garlic, sugar, soy sauce and five-spice and marinate in the fridge for at least 4 hours or overnight.|3=Coat the strips evenly in the sweet potato starch and rest a few minutes until the coating looks damp.|8=Fry in 320°F oil until cooked through, then lift out.|2=Raise the oil to 375°F and fry again briefly until the crust is crisp and deep red.|2=Drain, slice and serve with pickled cucumber or garlic soy paste.",
+  "梅花肉切成約2.5公分寬的粗條，蒜切末。|豬肉加紅糟醬、米酒、蒜末、糖、醬油和五香粉拌勻，冷藏醃至少4小時或隔夜。|肉條均勻裹上地瓜粉，靜置幾分鐘讓粉反潮。|以160°C油溫炸到熟透後撈起。|油溫升到190°C再回炸一下，炸到外皮酥脆呈深紅色。|瀝油切片，搭配醃小黃瓜或蒜蓉醬油膏享用。",
+  "紅糟肉");
+W("Taiwanese Stir-Fried Noodles","台式炒麵","Taiwanese","noodle comfort",1,3,480,
+  "o:wheat noodles=12 oz;p:pork shoulder=6 oz;v:cabbage=1/4 heads;v:carrot=1/2 whole;v:shiitake=4 whole;v:garlic=3 cloves;v:scallion=2 stalks;s:soy sauce=2 tbsp;s:oyster sauce=1 tbsp;s:white pepper=1/4 tsp;s:chicken broth=1/2 cup;s:oil=2 tbsp",
+  "10=Shred the pork, cabbage and carrot; soak and slice the shiitake; mince the garlic and cut the scallion into lengths.|4=Boil the noodles until just under done, rinse in cold water and drain well.|4=Stir-fry the garlic, scallion whites and shiitake in the oil, then add the pork and fry until it changes colour.|3=Add the carrot and cabbage and stir-fry until slightly softened.|4=Add the noodles, broth, soy sauce, oyster sauce and white pepper and toss over high heat until the liquid is absorbed; finish with the scallion greens.",
+  "豬肉、高麗菜和紅蘿蔔切絲；香菇泡軟切絲；蒜切末，蔥切段。|麵條煮到八分熟，過冷水後充分瀝乾。|用油爆香蒜末、蔥白和香菇，加入肉絲炒到變色。|加入紅蘿蔔和高麗菜，炒到微軟。|放入麵條、高湯、醬油、蠔油和白胡椒，大火拌炒到湯汁收乾，最後拌入蔥綠。",
+  "台式炒麵");
+W("Taiwanese Steamed Pork Buns","鮮肉包","Taiwanese","breakfast dumpling kids mealprep",3,6,330,
+  "o:flour=3 cups;o:yeast=1 1/2 tsp;s:sugar=2 tbsp;o:milk=1 cup;p:ground pork=1 lb;v:scallion=3 stalks;v:ginger=1 in;s:soy sauce=2 tbsp;s:oyster sauce=1 tbsp;s:sesame oil=1 tbsp;s:white pepper=1/2 tsp;s:salt=1/2 tsp",
+  "10=Mix the flour, yeast, sugar and lukewarm milk and knead into a smooth, soft dough.|60=Cover and let the dough rise until doubled.|10=Mix the pork with the soy sauce, oyster sauce, salt, white pepper and 3 tbsp water, stirring in one direction until sticky, then add the scallion, grated ginger and sesame oil.|25=Knock back the dough, divide into 12 pieces, roll each into a round with thinner edges, fill and pleat closed.|20=Set the buns on paper squares in the steamer and let them proof until slightly puffy.|15=Steam over high heat.|5=Turn off the heat and wait 5 minutes before lifting the lid so the buns don't collapse.",
+  "麵粉、酵母、糖和溫牛奶混合，揉成光滑柔軟的麵團。|蓋上保鮮膜，發酵到兩倍大。|絞肉加醬油、蠔油、鹽、白胡椒和3大匙水，朝同一方向攪拌到出筋黏稠，再加入蔥花、薑泥和香油。|麵團排氣後分成12份，擀成中間厚邊緣薄的圓片，包入餡料捏褶收口。|包子放在烘焙紙上排入蒸籠，二次發酵到微微膨脹。|大火蒸熟。|關火後燜5分鐘再開蓋，避免包子塌陷。",
+  "肉包");
+W("Strawberry Tanghulu","草莓糖葫蘆","Northern Chinese","dessert kids street snack",2,4,150,
+  "v:strawberries=1 lb;s:sugar=1 cup",
+  "10=Wash the strawberries, dry them completely, hull them and thread 3–4 onto each bamboo skewer.|10=Boil the sugar with 1/2 cup water without stirring until it reaches 300°F and turns pale amber (a drop snaps hard in cold water).|5=Working quickly, tilt the pan and roll each skewer through the syrup in a thin, even coat.|5=Stand the skewers on an oiled tray or parchment until the shell hardens like glass, then eat the same day.",
+  "草莓洗淨後完全擦乾，去蒂，每支竹籤串3至4顆。|糖加1/2杯水煮滾，不要攪拌，煮到150°C呈淡琥珀色（滴入冷水會脆硬斷裂）。|動作要快，傾斜鍋子，把每串草莓在糖漿中滾一圈，裹上薄而均勻的糖衣。|放在抹油的盤子或烘焙紙上，等糖衣硬脆如玻璃，當天食用。",
+  "糖葫芦");
+W("Buddha's Delight","羅漢齋","Cantonese","healthy festive comfort",2,4,220,
+  "v:napa cabbage=1/2 heads;v:shiitake=6 whole;v:wood ear=1/2 cup;o:mung bean vermicelli=2 oz;p:tofu puffs=8 pieces;v:carrot=1 whole;v:snow peas=1 cup;v:dried lily flowers=1/4 cup;v:ginger=1 in;s:fermented bean curd=2 pieces;s:soy sauce=1 tbsp;s:sugar=1 tsp;s:vegetable broth=1 1/2 cups;s:cornstarch=1 tsp;s:sesame oil=1 tsp;s:oil=2 tbsp",
+  "30=Soak the shiitake, wood ear, lily flowers and vermicelli separately until soft; knot the lily flowers and cut the vermicelli shorter.|8=Cut the napa cabbage into chunks, slice the carrot and halve the tofu puffs; mash the fermented bean curd with the soy sauce and sugar.|3=Fry the sliced ginger and the bean curd mixture in the oil until fragrant.|4=Add the shiitake, wood ear, carrot and cabbage stems and stir-fry for a few minutes.|10=Add the broth, tofu puffs, lily flowers and cabbage leaves, cover and simmer until the cabbage is tender.|3=Add the vermicelli and snow peas, thicken lightly with the cornstarch mixed with water, and finish with sesame oil.",
+  "香菇、木耳、金針花和冬粉分別泡軟；金針花打結，冬粉剪短。|大白菜切大塊、紅蘿蔔切片、豆腐泡對半切；豆腐乳加醬油和糖壓成醬。|用油將薑片和豆腐乳醬炒香。|加入香菇、木耳、紅蘿蔔和白菜梗拌炒幾分鐘。|加入高湯、豆腐泡、金針花和白菜葉，加蓋燜煮到白菜軟爛。|加入冬粉和荷蘭豆，用太白粉水薄勾芡，淋上香油即可。",
+  "羅漢齋");
+W("Sichuan Hot and Sour Potato Shreds","酸辣土豆絲","Sichuan","spicy healthy",1,3,170,
+  "v:potato=2 whole;s:dried chili=6 whole;s:sichuan peppercorn=1/2 tsp;v:garlic=2 cloves;v:scallion=1 stalks;s:vinegar=1 1/2 tbsp;s:salt=1/2 tsp;s:sugar=1/2 tsp;s:oil=2 tbsp",
+  "8=Peel the potatoes and cut them into very fine matchsticks; snip the chilies and slice the garlic and scallion.|5=Soak the potato shreds in cold water, changing it once, to rinse off the starch, then drain thoroughly.|1=Fry the Sichuan peppercorns in the hot oil until fragrant and scoop them out, then add the chilies and garlic.|3=Add the potatoes and stir-fry on high heat until just translucent but still crisp.|1=Splash the vinegar around the side of the wok, season with salt and sugar and toss in the scallion.",
+  "馬鈴薯去皮切成極細絲；乾辣椒剪段，蒜和蔥切片。|馬鈴薯絲泡冷水，中途換一次水洗去澱粉，再徹底瀝乾。|熱油爆香花椒後撈出，再放入乾辣椒和蒜片。|下馬鈴薯絲大火快炒到剛透明但仍脆。|沿鍋邊淋入白醋，加鹽和糖調味，拌入蔥段即可。",
+  "酸辣土豆絲");
+W("Hunan Minced Pork with Pickled Long Beans","酸豆角炒肉末","Hunan","spicy rice protein",1,3,330,
+  "v:pickled long beans=8 oz;p:ground pork=6 oz;v:chili pepper=3 whole;s:dried chili=4 whole;v:garlic=3 cloves;v:ginger=1 in;s:soy sauce=1 tbsp;s:sugar=1/2 tsp;s:oil=2 tbsp",
+  "5=Rinse the pickled long beans, squeeze dry and dice finely; chop the fresh chilies, garlic and ginger.|2=Dry-fry the pickled beans in a hot wok until the moisture cooks off, then set aside.|4=Heat the oil and stir-fry the pork until crumbly and lightly browned, adding the soy sauce.|2=Add the garlic, ginger and both chilies and fry until fragrant.|2=Return the long beans, add the sugar and toss on high heat until well combined; serve with rice.",
+  "酸豆角洗淨擠乾，切成細丁；新鮮辣椒、蒜和薑切末。|熱鍋乾煸酸豆角，把水分炒乾後盛起。|熱油炒絞肉到鬆散微焦，加入醬油。|加入蒜末、薑末和兩種辣椒炒香。|倒回酸豆角，加糖大火拌炒均勻，配白飯享用。",
+  "酸豆角肉末");
+W("Hong Kong Fish Fillet Rice with Corn Sauce","粟米斑塊飯","Hong Kong","rice kids seafood",1,3,540,
+  "p:fish fillet=1 lb;p:eggs=2 whole;s:cornstarch=3 tbsp;v:creamed corn=1 can;o:milk=1/4 cup;s:chicken broth=1/2 cup;o:rice=3 cups;s:salt=1/2 tsp;s:white pepper=1/4 tsp;s:oil=1/2 cup",
+  "10=Cut the fish into bite-size pieces, season with salt and white pepper, then toss in 1 beaten egg and coat in 2 tbsp cornstarch.|8=Shallow-fry the fish in the oil until golden and crisp, then drain.|5=Heat the creamed corn with the milk and broth until simmering, then thicken with the remaining cornstarch mixed with water.|1=Turn off the heat and swirl in the second beaten egg to make silky ribbons.|1=Spoon the fish over hot rice and pour the corn sauce over the top.",
+  "魚肉切成一口大小，用鹽和白胡椒調味，裹上1顆蛋液後沾2大匙太白粉。|用油半煎炸魚塊到金黃酥脆，撈起瀝油。|玉米醬加牛奶和高湯煮到微滾，用剩下的太白粉加水勾芡。|關火後倒入另一顆蛋液，輕輕攪成蛋花。|魚塊鋪在熱飯上，淋上玉米醬汁。",
+  "粟米斑塊飯");
+W("Yan Du Xian (Bamboo Shoot and Two Pork Soup)","醃篤鮮","Shanghainese","soup comfort festive",2,6,380,
+  "p:salted pork=8 oz;p:pork ribs=1 lb;v:bamboo shoots=1 lb;p:tofu skin=4 sheets;v:ginger=1 in;v:scallion=2 stalks;s:shaoxing wine=2 tbsp",
+  "10=Cut the salted pork and ribs into chunks and blanch both in boiling water for 3 minutes, then rinse.|10=Peel and cut the bamboo shoots into wedges and boil them for 5 minutes to remove bitterness.|90=Put the meats, ginger, scallion knots and Shaoxing wine in a pot with 10 cups water, bring to a boil and simmer gently, uncovered, until the broth turns milky.|30=Add the bamboo shoots and continue simmering.|10=Roll the tofu skin into knots or strips, add to the pot and simmer until soft; taste before adding salt, as the salted pork is salty.",
+  "鹹肉和排骨切塊，一起放入滾水汆燙3分鐘後洗淨。|竹筍剝殼切滾刀塊，水煮5分鐘去澀。|肉類、薑片、蔥結和紹興酒放入鍋中，加10杯水煮滾，轉小火不加蓋慢燉到湯色乳白。|加入竹筍繼續燉煮。|百頁豆皮打結或切條放入鍋中燉軟；鹹肉本身很鹹，先試味再決定是否加鹽。",
+  "腌笃鲜");
+W("Tonjiru (Pork and Vegetable Miso Soup)","豚汁","Japanese","soup healthy comfort onepot",1,4,260,
+  "p:pork belly=6 oz;v:daikon=1/3 whole;v:carrot=1 whole;v:burdock=1/2 whole;o:konjac=1/2 block;p:tofu=1/2 block;s:dashi=5 cups;s:miso=4 tbsp;v:scallion=2 stalks;s:sesame oil=1 tbsp",
+  "10=Slice the pork belly thinly; cut the daikon and carrot into quarter-moons, shave the burdock and soak it in water; tear the konjac into small pieces.|3=Blanch the konjac for 2 minutes to remove its smell and drain.|4=Stir-fry the pork in the sesame oil until it changes colour, then add the vegetables and konjac and toss for 2 minutes.|15=Add the dashi, bring to a boil, skim, and simmer until the root vegetables are tender.|3=Add the cubed tofu, then turn the heat to low and dissolve the miso into the soup without boiling it.|1=Serve topped with sliced scallion.",
+  "五花肉切薄片；白蘿蔔和紅蘿蔔切扇形片，牛蒡削片泡水；蒟蒻撕成小塊。|蒟蒻汆燙2分鐘去腥後瀝乾。|用香油炒豬肉到變色，加入蔬菜和蒟蒻拌炒2分鐘。|加入日式高湯煮滾撈去浮沫，小火煮到根莖類軟透。|加入豆腐丁，轉小火把味噌化開拌入湯中，不要再煮滾。|盛碗後撒上蔥花。",
+  "豚汁");
+W("Vietnamese Caramelized Pork and Eggs (Thit Kho Trung)","越南椰汁滷肉蛋","Vietnamese","rice comfort protein festive",2,6,560,
+  "p:pork belly=2 lb;p:eggs=6 whole;v:coconut water=3 cups;s:fish sauce=3 tbsp;s:sugar=2 tbsp;v:shallot=4 whole;v:garlic=4 cloves;s:black pepper=1/2 tsp;v:chili pepper=1 whole",
+  "12=Hard-boil the eggs for 10 minutes, cool and peel them; cut the pork belly into 1.5-inch cubes and mince the shallots and garlic.|30=Marinate the pork with the fish sauce, shallots, garlic and black pepper.|5=Melt the sugar in a heavy pot over medium heat until it becomes a dark amber caramel.|4=Add the pork and stir until the pieces are coated in caramel and the fat starts to render.|75=Pour in the coconut water, add the eggs and chili, bring to a boil, skim and simmer gently partly covered until the pork is very tender and the broth is amber.|2=Taste, adjust with more fish sauce or sugar, and serve with rice and pickled vegetables.",
+  "蛋水煮10分鐘成全熟，放涼剝殼；五花肉切成約4公分方塊，紅蔥頭和蒜切末。|五花肉加魚露、紅蔥頭、蒜末和黑胡椒醃漬。|厚底鍋中火把糖煮化，煮成深琥珀色焦糖。|加入豬肉拌炒，讓每塊都裹上焦糖並開始出油。|倒入椰子水，放入水煮蛋和辣椒，煮滾撈去浮沫，半蓋鍋蓋小火燉到豬肉軟爛、湯汁呈琥珀色。|試味，用魚露或糖調整，搭配白飯和醃菜享用。",
+  "Thịt kho trứng");
+W("Palak Paneer","印度菠菜起司","Indian","healthy comfort",2,4,340,
+  "v:spinach=1 lb;p:paneer=8 oz;v:onion=1 whole;v:tomato=1 whole;v:garlic=4 cloves;v:ginger=1 in;v:chili pepper=1 whole;s:cumin=1 tsp;s:garam masala=1 tsp;s:turmeric=1/4 tsp;o:cream=1/4 cup;s:salt=1 tsp;s:oil=2 tbsp",
+  "3=Blanch the spinach in boiling water for 2 minutes, then plunge into ice water to keep it bright green.|4=Blend the spinach with the green chili and a splash of water into a smooth purée; cube the paneer.|8=Toast the cumin seeds in the oil, then fry the chopped onion until golden and add the garlic and ginger.|5=Add the chopped tomato, turmeric and garam masala and cook until the tomato breaks down.|5=Stir in the spinach purée and salt and simmer gently, adding water if it is too thick.|3=Add the paneer and cream and simmer until heated through; serve with rice or naan.",
+  "菠菜放入滾水汆燙2分鐘，立刻泡冰水保持翠綠。|菠菜加青辣椒和少許水打成細滑菜泥；印度起司切丁。|用油炒香孜然籽，加入洋蔥丁炒到金黃，再加入蒜末和薑末。|加入番茄丁、薑黃粉和葛拉姆馬薩拉，炒到番茄軟爛。|拌入菠菜泥和鹽，小火煮滾，太稠可加點水。|加入起司丁和鮮奶油煮到熱透，搭配白飯或烤餅。",
+  "palak paneer");
+W("Leftover Turkey Pot Pie","火雞肉鹹派","American","comfort festive protein",2,6,520,
+  "p:turkey breast=3 cups;v:onion=1 whole;v:carrot=2 whole;v:celery=2 stalks;v:peas=1 cup;o:butter=4 tbsp;o:flour=1/3 cup;s:chicken broth=2 cups;o:milk=3/4 cup;s:thyme=1 tsp;o:pie crust=1 whole;p:eggs=1 whole;s:salt=1 tsp;s:black pepper=1/2 tsp",
+  "10=Preheat the oven to 400°F; dice the onion, carrots and celery and shred the cooked turkey.|8=Melt the butter in a pan and cook the vegetables until softened.|2=Sprinkle in the flour and stir for a minute to cook out the raw taste.|5=Gradually whisk in the broth and milk and simmer until thick, then add the turkey, peas, thyme, salt and pepper.|3=Pour the filling into a deep pie dish, lay the crust over the top, crimp the edges, cut steam vents and brush with beaten egg.|30=Bake until the crust is deep golden and the filling bubbles.|10=Rest before serving so the filling can thicken.",
+  "烤箱預熱至200°C；洋蔥、紅蘿蔔和西洋芹切丁，熟火雞肉撕成絲。|鍋中融化奶油，把蔬菜炒軟。|撒入麵粉拌炒1分鐘，炒掉生粉味。|慢慢拌入高湯和牛奶，煮到濃稠後加入火雞肉、豌豆、百里香、鹽和胡椒。|內餡倒入深派盤，蓋上派皮，捏緊邊緣，劃出透氣口並刷上蛋液。|烤到派皮深金黃、內餡冒泡。|靜置一下讓內餡變稠再上桌。",
+  "turkey pot pie");
+W("Pumpkin Muffins","南瓜馬芬","American","breakfast kids snack",1,12,230,
+  "v:pumpkin=15 oz;o:flour=1 3/4 cups;s:sugar=1/2 cup;s:brown sugar=1/2 cup;p:eggs=2 whole;s:oil=1/2 cup;s:baking soda=1 tsp;s:baking powder=1/2 tsp;s:cinnamon=2 tsp;s:nutmeg=1/4 tsp;s:ground ginger=1/2 tsp;s:salt=1/2 tsp;s:vanilla=1 tsp",
+  "5=Preheat the oven to 375°F and line a 12-cup muffin tin.|3=Whisk the flour, baking soda, baking powder, spices and salt in a bowl.|4=In another bowl whisk the pumpkin purée, both sugars, eggs, oil and vanilla until smooth.|2=Fold the dry ingredients into the wet just until no flour shows, then divide among the cups.|20=Bake until domed and a toothpick comes out clean.|10=Cool in the tin for a few minutes, then on a rack.",
+  "烤箱預熱至190°C，12連馬芬模放入紙模。|麵粉、小蘇打、泡打粉、香料和鹽在碗中拌勻。|另一碗把南瓜泥、兩種糖、蛋、油和香草精攪拌到滑順。|把乾料拌入濕料，拌到看不到乾粉即可，分裝入模。|烤到表面隆起、牙籤插入不沾黏。|在模中稍微放涼，再移到網架上冷卻。",
+  "pumpkin muffins");
+W("Pasta e Fagioli","義式白豆蔬菜湯麵","Italian","soup healthy pasta onepot",1,6,360,
+  "s:olive oil=2 tbsp;v:onion=1 whole;v:carrot=2 whole;v:celery=2 stalks;v:garlic=3 cloves;o:crushed tomatoes=1 can;o:white beans=2 cans;s:vegetable broth=6 cups;o:pasta=1 cup;s:rosemary=1 tsp;o:parmesan=1/2 cup;s:chili flakes=1 pinch;s:salt=1 tsp;s:black pepper=1/2 tsp",
+  "8=Dice the onion, carrots and celery, mince the garlic and drain and rinse the beans.|8=Cook the vegetables in the olive oil until soft, then add the garlic, rosemary and chili flakes.|3=Add the tomatoes, beans and broth and bring to a boil; mash a cup of the beans against the pot to thicken the soup.|15=Simmer to blend the flavours.|10=Add the small pasta and cook until al dente, stirring now and then.|2=Season with salt and pepper and serve with grated parmesan and a drizzle of olive oil.",
+  "洋蔥、紅蘿蔔和西洋芹切丁，蒜切末，白豆瀝乾洗淨。|用橄欖油將蔬菜炒軟，加入蒜末、迷迭香和辣椒碎。|加入番茄、白豆和高湯煮滾；用湯勺把約一杯白豆壓碎讓湯變濃稠。|小火燉煮讓味道融合。|加入小型義大利麵煮到彈牙，不時攪拌。|加鹽和胡椒調味，撒上帕瑪森起司、淋點橄欖油上桌。",
+  "pasta e fagioli");
